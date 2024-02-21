@@ -19,8 +19,19 @@ a {
     padding-top: 4rem;
 }
 
+.section__margin {
+    margin-top: 10rem;
+}
+
 .section__width {
     width: 950px;
+}
+
+.transparent-button {
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    outline: none;
+    padding: 0.5rem 1rem;
 }
 
 .portfolio__app-header {

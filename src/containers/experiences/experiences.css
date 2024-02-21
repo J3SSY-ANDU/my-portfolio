@@ -1,0 +1,87 @@
+.portfolio__experiences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    max-width: 100%;
+}
+
+.portfolio__experiences-title h1{
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.portfolio__experiences-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgba(4, 13, 18, 0.3);
+    box-shadow: 0px 10.0208px 100.208px rgba(129, 143, 180, 0.1);
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio__experiences-overlay_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.portfolio__experiences-overlay_info-map {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.portfolio__experiences-overlay_info-map .portfolio__experience-content h3, p {
+    margin: 0.6rem;
+}
+
+.portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
+    align-self: flex-start;
+    text-align: center;
+    width: 15%;
+    padding: 0.75rem 0;
+}
+
+.portfolio__experiences-overlay_info-map > :nth-child(2)  {
+    align-self: center;
+}
+
+.portfolio__experiences-overlay_info-map > :nth-child(3)  {
+    align-self: flex-end;
+}
+
+.first-image {
+    position: absolute;
+    right: 1250px;
+    bottom: 500px;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+.second-image {
+    position: absolute;
+    left: 1250px;
+    bottom: 450px;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+.third-image {
+    position: absolute;
+    right: 1000px;
+    top: 500px;
+    z-index: -1;
+    filter: blur(2px);
+}
+

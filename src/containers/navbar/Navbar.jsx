@@ -7,7 +7,7 @@ const Menu = () => (
     <>
         <p><a href='#experience'>About</a></p>
         <p><a href='#projects'>Projects</a></p>
-        <a href='#hire-me'><p>Hire me</p></a>
+        <p className='transparent-button'><a href='#hire-me'>Hire me</a></p>
     </>
 )
 

@@ -1,0 +1,29 @@
+.portfolio__experience {
+    width: 470px;
+}
+
+.portfolio__experience-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__experience-content h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-self:flex-end;
+    align-self: flex-start;
+    color: #FFFFFF;
+}
+
+.portfolio__experience-content p {
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    width: 470px;
+}
