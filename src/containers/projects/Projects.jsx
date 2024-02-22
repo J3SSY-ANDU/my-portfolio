@@ -1,5 +1,6 @@
 import React from 'react';
 import portfolioImage from '../../assets/portfolio.png';
+import gpt3 from '../../assets/gpt3.png';
 import Project from '../../components/project/Project';
 import './projects.css';
 
@@ -13,7 +14,7 @@ const projectsList = {
         },   
         {
             title: "GPT-3",
-            backgroundImage: portfolioImage,
+            backgroundImage: gpt3,
             description: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit.",
             codeIn: "React",
             link: ''
@@ -55,7 +56,7 @@ function Projects() {
             <div className='portfolio__projects-container section__width' >
                 <div className='portfolio__projects-container_heading'>
                     <h1>Projects</h1>
-                    <p>Here is some of my latest work. If you require a personalized project, <a href='#hire-me'>feel free to reach out to me!</a></p>
+                    <p>Here is some of my latest work! If you require a personalized project, feel free to reach out to me!</p>
                 </div>
                 <div className='portfolio__projects-container_body'>
                     {projectsList.projects.map((project, i) => {

@@ -1,8 +1,5 @@
 .portfolio__project {
     border-radius: 15px;
-    background: linear-gradient(0deg, rgba(30, 30, 30, 0.3), rgba(30, 30, 30, 0.3)), url('../../assets//portfolio.png');
-    background-size: 180%;
-    background-position: center;
 }
 
 .portfolio__project:hover {
@@ -24,9 +21,11 @@
 @keyframes backgroundAnimation {
     from {
         background-size: 160%; 
+        background-position: center;
     }
     to {
-        background-size: 220%; 
+        background-size: 220%;
+        background-position: center; 
     }
 }
 

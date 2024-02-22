@@ -16,11 +16,7 @@ a {
 }
 
 .section__padding {
-    padding-top: 4rem;
-}
-
-.section__margin {
-    margin-top: 10rem;
+    padding: 3rem 0;
 }
 
 .section__width {
@@ -31,7 +27,7 @@ a {
     border: 1px solid #FFFFFF;
     border-radius: 30px;
     outline: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.25rem;
 }
 
 .portfolio__app-header {

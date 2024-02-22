@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
 }
 
 .portfolio__projects-container {
@@ -37,6 +36,11 @@
     color: #FFFFFF;
     margin-bottom: 2rem;
 }
+
+.portfolio__projects-container_heading a {
+    
+}
+
 
 .portfolio__projects-container_body {
     display: grid;
