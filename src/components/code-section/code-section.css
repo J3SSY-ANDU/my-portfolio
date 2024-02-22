@@ -1,0 +1,13 @@
+.portfolio__codeSection {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.portfolio__codeSection-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}

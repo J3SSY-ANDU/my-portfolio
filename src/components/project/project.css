@@ -1,0 +1,71 @@
+.portfolio__project {
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(30, 30, 30, 0.3), rgba(30, 30, 30, 0.3)), url('../../assets//portfolio.png');
+
+    background-size: 160%;
+    background-position: center;
+}
+
+.portfolio__project:hover {
+    animation: backgroundAnimation 0.5s ease forwards;
+}
+
+.portfolio__project-container:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.portfolio__project-container:hover h3 {
+    opacity: 1;
+}
+
+.portfolio__project-container:hover p {
+    opacity: 1;
+}
+  
+@keyframes backgroundAnimation {
+    from {
+        background-size: 160%; 
+    }
+    to {
+        background-size: 220%; 
+    }
+}
+
+.portfolio__project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    height: 280px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background: rgba(0, 0, 0, 0);
+}
+
+.portfolio__project-container h3 {
+    font-family: 'Montserrat';
+    flex: 1;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.portfolio__project-container p {
+    font-family: 'Raleway';
+    flex: 2;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+
+

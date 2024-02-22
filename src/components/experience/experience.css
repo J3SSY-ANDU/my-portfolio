@@ -27,3 +27,7 @@
     color: #FFFFFF;
     width: 470px;
 }
+
+.portfolio__experience-content:last-child {
+    cursor: pointer;
+}
