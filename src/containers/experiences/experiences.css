@@ -43,7 +43,7 @@
     align-items: flex-start;
 }
 
-.portfolio__experiences-overlay_info-map .portfolio__experience-content h3, p {
+ .portfolio__experience-content h3, .portfolio__experience-content p {
     margin: 0.6rem;
 }
 

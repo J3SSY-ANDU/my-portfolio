@@ -1,7 +1,6 @@
 .portfolio__project {
     border-radius: 15px;
     background: linear-gradient(0deg, rgba(30, 30, 30, 0.3), rgba(30, 30, 30, 0.3)), url('../../assets//portfolio.png');
-
     background-size: 180%;
     background-position: center;
 }
@@ -34,7 +33,7 @@
 .portfolio__project-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 2rem 1rem;
@@ -46,8 +45,10 @@
 }
 
 .portfolio__project-container h3 {
+    display: flex;
+    align-items: center;
+    flex: 2;
     font-family: 'Montserrat';
-    flex: 1;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -57,14 +58,23 @@
 }
 
 .portfolio__project-container p {
+    display: flex;
+    align-items: center;
+    flex: 1;
     font-family: 'Raleway';
     flex: 2;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
     opacity: 0;
-    transition: 0.5s ease;
+    transition: 0.5s ease;  
+}
+
+.portfolio__project-container > p:last-child {
+    font-weight: 400;
+    font-size: 18px;
+    font-style:oblique;
 }
 
 
