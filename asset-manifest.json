@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.02c57ec8.css",
+    "main.js": "/react-gh-pages/static/js/main.8f6ae690.js",
+    "static/media/gpt3.png": "/react-gh-pages/static/media/gpt3.c8cfc9f44def07abf652.png",
+    "static/media/profile-photo.png": "/react-gh-pages/static/media/profile-photo.62e5c625037e13e93480.png",
+    "static/media/portfolio.png": "/react-gh-pages/static/media/portfolio.88ab944796e67b9fb564.png",
+    "static/media/Holographic 3D shape 43 1.png": "/react-gh-pages/static/media/Holographic 3D shape 43 1.fe34c0e32bcbcfe03323.png",
+    "static/media/Holographic 3D shape 78 1.png": "/react-gh-pages/static/media/Holographic 3D shape 78 1.20350be6d15cda114cd4.png",
+    "static/media/Holographic 3D shape 14 1.png": "/react-gh-pages/static/media/Holographic 3D shape 14 1.59aa17dd283fe2995910.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.02c57ec8.css.map": "/react-gh-pages/static/css/main.02c57ec8.css.map",
+    "main.8f6ae690.js.map": "/react-gh-pages/static/js/main.8f6ae690.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02c57ec8.css",
+    "static/js/main.8f6ae690.js"
+  ]
+}
