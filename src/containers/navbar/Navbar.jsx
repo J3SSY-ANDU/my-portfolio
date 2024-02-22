@@ -15,7 +15,7 @@ function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <div className='portfolio__navbar section__padding'>
+        <div className='portfolio__navbar'>
             <div className='portfolio__navbar-links section__width section__width-tv'>
                 <div className='portfolio__navbar-links_logo'>
                     <h3>Jessy's Portfolio</h3>

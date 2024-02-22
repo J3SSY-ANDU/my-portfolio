@@ -3,7 +3,7 @@
 }
 
 .portfolio__project:hover {
-    animation: backgroundAnimation 0.5s ease forwards;
+    animation: backgroundAnimation 0.6s ease forwards;
 }
 
 .portfolio__project-container:hover {
@@ -20,11 +20,11 @@
   
 @keyframes backgroundAnimation {
     from {
-        background-size: 160%; 
+        background-size: 100%; 
         background-position: center;
     }
     to {
-        background-size: 220%;
+        background-size: 130%;
         background-position: center; 
     }
 }
@@ -39,8 +39,9 @@
     height: 280px;
     width: 100%;
     cursor: pointer;
-    transition: 0.5s ease-in-out;
+    transition: 0.6s ease-in-out;
     background: rgba(0, 0, 0, 0);
+    border-radius: 15px;
 }
 
 .portfolio__project-container h3 {
@@ -53,7 +54,7 @@
     line-height: 23px;
     color: #FFFFFF;
     opacity: 0;
-    transition: 0.5s ease;
+    transition: 0.6s ease;
 }
 
 .portfolio__project-container p {
@@ -67,7 +68,7 @@
     line-height: 18px;
     color: #FFFFFF;
     opacity: 0;
-    transition: 0.5s ease;  
+    transition: 0.6s ease;  
 }
 
 .portfolio__project-container > p:last-child {

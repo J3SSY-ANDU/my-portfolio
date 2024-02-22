@@ -7,10 +7,13 @@ function App() {
       <div className='portfolio__app-header'>
         <Navbar/>
         <Header/>
-        <Experiences/>
-        <Projects/>
-        <HireMe/>
-        <Footer/>
+        <div className='portfolio__app-footer'>
+          <Experiences/>
+          <Projects/>
+          <HireMe/>
+          <Footer/>
+        </div>
+        
       </div>
     </div>
   );
