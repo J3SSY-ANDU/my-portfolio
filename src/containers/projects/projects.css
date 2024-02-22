@@ -13,35 +13,33 @@
     align-items: center;
 }
 
+.portfolio__projects-container_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .portfolio__projects-container_heading h1 {
     font-family: 'Yeseva One';
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
     color: #FFFFFF;
+    margin-bottom: 1rem;
 }
 
-.portfolio__projects-container_heading-sideBar {
-    width: 100%;
-    background: #1E1E1E;
-    border-radius: 2.5px;
-    margin-top: 1rem;
-    display: flex;
-}
-
-.portfolio__projects-container_heading-sideBar div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15%;
-    padding: 2px 0;
-    cursor: pointer;
-}
-
-.portfolio__projects-container_heading-sideBar div p {
-    font-family: 'Raleway';
-    font-weight: 300;
+.portfolio__projects-container_heading p {
+    font-family: "Raleway";
     font-size: 20px;
+    font-weight: 300;
     line-height: 23px;
     color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.portfolio__projects-container_body {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
