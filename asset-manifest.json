@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.529cc963.css",
-    "main.js": "/my-portfolio/static/js/main.07b21180.js",
+    "main.css": "/my-portfolio/static/css/main.50d330e4.css",
+    "main.js": "/my-portfolio/static/js/main.27b85a99.js",
     "static/media/gpt3.png": "/my-portfolio/static/media/gpt3.c8cfc9f44def07abf652.png",
     "static/media/profile-photo.png": "/my-portfolio/static/media/profile-photo.62e5c625037e13e93480.png",
     "static/media/portfolio.png": "/my-portfolio/static/media/portfolio.88ab944796e67b9fb564.png",
@@ -9,11 +9,11 @@
     "static/media/Holographic 3D shape 78 1.png": "/my-portfolio/static/media/Holographic 3D shape 78 1.20350be6d15cda114cd4.png",
     "static/media/Holographic 3D shape 14 1.png": "/my-portfolio/static/media/Holographic 3D shape 14 1.59aa17dd283fe2995910.png",
     "index.html": "/my-portfolio/index.html",
-    "main.529cc963.css.map": "/my-portfolio/static/css/main.529cc963.css.map",
-    "main.07b21180.js.map": "/my-portfolio/static/js/main.07b21180.js.map"
+    "main.50d330e4.css.map": "/my-portfolio/static/css/main.50d330e4.css.map",
+    "main.27b85a99.js.map": "/my-portfolio/static/js/main.27b85a99.js.map"
   },
   "entrypoints": [
-    "static/css/main.529cc963.css",
-    "static/js/main.07b21180.js"
+    "static/css/main.50d330e4.css",
+    "static/js/main.27b85a99.js"
   ]
 }
