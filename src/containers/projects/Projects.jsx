@@ -8,9 +8,9 @@ const projectsList = {
     projects: [ {
             title: "Portfolio",
             backgroundImage: portfolioImage,
-            description: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit.",
-            codeIn: "React / JSX",
-            link: ''
+            description: "My portfolio encapsulates my passion as a front-end fanatic and software engineering student. It features a personal introduction and showcases my most recent projects.",
+            codeIn: "React JS",
+            link: '#'
         },   
         {
             title: "GPT-3",

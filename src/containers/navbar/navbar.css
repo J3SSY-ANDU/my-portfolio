@@ -146,4 +146,9 @@
         font-size: 12px;
         line-height: 14px;
     }
+
+    .portfolio__navbar-links_container p:last-child {
+        border: none;
+        text-align: left;
+    } 
 }

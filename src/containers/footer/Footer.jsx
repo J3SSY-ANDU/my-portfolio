@@ -14,8 +14,8 @@ function Footer() {
                 </div>
                 <div className='portfolio__footer-container_links'>
                 
-                    <a href='#'><img src={githubImage} /></a>
-                    <a href='#'><img src={envelopeImage}/></a>
+                    <a href='https://github.com/J3SSY-ANDU'><img src={githubImage} /></a>
+                    <a href='mailto:jessy.andujar@upr.edu'><img src={envelopeImage}/></a>
                     <a href='#'><img src={fileImage}/></a>
                 </div>
                 <p>University of Puerto Rico at Mayagüez</p>

@@ -8,15 +8,15 @@ import './experiences.css';
 const info = [
     {
         title: "Rumbus",
-        text: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit. Sagittis dolor pellentesque sed ornare tellus vel."
+        text: "Collaborated on RUMBus, focusing on the development of user-friendly interfaces, including maps and notifications, to enhance the UPRM bus service app using React Native."
     }, 
     {
         title: "CPC",
-        text: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit. Sagittis dolor pellentesque sed ornare tellus vel."
+        text: "Participating in the ICPC, I focused on C++ to tackle LeetCode-similar challenges, cultivating collaboration and problem-solving skills in an international setting."
     },
     {
         title: "Evolving Space",
-        text: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit. Sagittis dolor pellentesque sed ornare tellus vel."
+        text: "At Evolving Space, I facilitated Web3 workshops, drove community growth, and guided students in tech projects, enhancing digital innovation engagement."
     }
 ]
 
