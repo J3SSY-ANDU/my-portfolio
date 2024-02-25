@@ -42,7 +42,7 @@
 }
 
 .portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
-    margin: 0.75rem 0;
+    margin-bottom: 1rem;
 }
 
 .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
@@ -83,7 +83,7 @@
 
 @media screen and (min-width: 1700px) {
     .portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
-        margin: 1rem 0;
+        margin-bottom: 1.25rem;
     }
 
     .portfolio__experiences-title h1{
@@ -111,7 +111,7 @@
 
 @media screen and (max-width: 1000px) {
     .portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
-        margin: 0.6rem 0;
+        margin-bottom: 0.75rem;
     }
 
     .portfolio__experiences-overlay_info-map >:nth-child(1),
@@ -138,10 +138,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
-        margin: 0.5rem 0;
-    }
-
     .portfolio__experiences-title h1{
         font-size: 28px;
         line-height: 32px;
