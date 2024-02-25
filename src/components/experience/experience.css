@@ -34,13 +34,13 @@
         width: 650px;
     }
     .portfolio__experience-content h3 {
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 32px;
+        line-height: 40px;
     }
 
     .portfolio__experience-content p {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 28px;
+        line-height: 36px;
     }
 }
 

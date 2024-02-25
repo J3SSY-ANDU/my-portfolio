@@ -97,8 +97,12 @@
     }
 
     .portfolio__header-container_intro-text p {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .portfolio__header-container_intro-text a {
+        padding: 1rem 1.5rem;
     }
 
     .portfolio__header-container_intro-image {
@@ -113,7 +117,7 @@
 
     .portfolio__header-container_intro-text i {
         font-size: 160px;
-        line-height: 160px;
+        line-height: 140px;
     }
 
 }

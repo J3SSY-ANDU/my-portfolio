@@ -51,7 +51,7 @@
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 28px;
     color: #FFFFFF;
     opacity: 0;
     transition: 0.6s ease;
@@ -65,7 +65,7 @@
     flex: 2;
     font-weight: 200;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 22px;
     color: #FFFFFF;
     opacity: 0;
     transition: 0.6s ease;  
@@ -75,6 +75,70 @@
     font-weight: 400;
     font-size: 18px;
     font-style:oblique;
+}
+
+@media screen and (min-width: 1700px) {
+    .portfolio__project-container {
+        height: 475px;
+    }
+
+    .portfolio__project-container h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .portfolio__project-container p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .portfolio__project-container p:last-child {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__project-container {
+        height: 220px;
+    }
+
+    .portfolio__project-container h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .portfolio__project-container p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .portfolio__project-container p:last-child {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__project-container {
+        height: 350px;
+    }
+
+    .portfolio__project-container h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .portfolio__project-container p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .portfolio__project-container p:last-child {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
 
 
