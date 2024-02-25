@@ -1,10 +1,11 @@
 .portfolio__experience {
-    width: 470px;
+    width: 500px;
 }
 
 .portfolio__experience-content {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .portfolio__experience-content h3 {
@@ -12,22 +13,64 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
-    display: flex;
-    justify-self:flex-end;
-    align-self: flex-start;
     color: #FFFFFF;
 }
 
 .portfolio__experience-content p {
     font-family: 'Raleway';
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
     text-align: justify;
     color: #FFFFFF;
-    width: 470px;
 }
 
 .portfolio__experience-content:last-child {
     cursor: pointer;
+}
+
+@media screen and (min-width: 1700px) {
+    .portfolio__experience {
+        width: 650px;
+    }
+    .portfolio__experience-content h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .portfolio__experience-content p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__experience {
+        width: 500px;
+    }
+    .portfolio__experience-content h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .portfolio__experience-content p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__experience {
+        width: 100%;
+    }
+
+    .portfolio__experience-content h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .portfolio__experience-content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
 }

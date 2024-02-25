@@ -49,7 +49,7 @@
 .portfolio__header-container_intro-text p {
     font-family: 'Raleway';
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
 
     color: #FFFFFF;
@@ -168,8 +168,7 @@
 
     .portfolio__header-container_intro-text p {
         font-size: 16px;
-        line-height: 16px;
-        letter-spacing: 1px;
+        line-height: 22px;
     }
 
     .portfolio__header-container_intro-text i {

@@ -66,6 +66,11 @@
     margin: 0.5rem 0;
 }
 
+.portfolio__navbar-menu_content p:nth-child(1),
+.portfolio__navbar-menu_content p:nth-child(2) {
+    margin-bottom: 1rem;
+}
+
 .portfolio__navbar-menu_content p:last-child {
     border: none;
     padding: 0;

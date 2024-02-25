@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
 }
 
 .portfolio__experiences-title h1{
@@ -42,15 +41,14 @@
     align-items: flex-start;
 }
 
- .portfolio__experience-content h3, .portfolio__experience-content p {
-    margin: 0.6rem;
+.portfolio__experience-content h3, .portfolio__experience-content p {
+    margin: 0.75rem;
 }
 
 .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
     align-self: flex-start;
     text-align: center;
-    width: 15%;
-    padding: 0.75rem 0;
+    padding: 0.75rem 1.25rem;
 }
 
 .portfolio__experiences-overlay_info-map > :nth-child(2)  {
@@ -84,4 +82,86 @@
     z-index: -1;
     filter: blur(2px);
 }
+
+@media screen and (min-width: 1700px) {
+    .portfolio__experience-content h3, .portfolio__experience-content p {
+        margin: 1rem;
+    }
+
+    .portfolio__experiences-title h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .first-image {
+        right: 1730px;
+    }
+
+    .second-image {
+        left: 1730px;
+    }
+
+    .third-image {
+        right: 1500px;
+        top: 700px;
+    }
+
+    .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
+        padding: 1rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__experience-content h3, .portfolio__experience-content p {
+        margin: 0.6rem;
+    }
+
+    .first-image {
+        right: 650px;
+    }
+
+    .second-image {
+        left: 650px;
+    }
+
+    .third-image {
+        right: 600px;
+        top: 650px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__experience-content h3, .portfolio__experience-content p {
+        margin: 0.5rem;
+    }
+
+    .portfolio__experiences-title h1{
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .portfolio__experiences-overlay_info-map >:nth-child(1),
+    .portfolio__experiences-overlay_info-map >:nth-child(2)  {
+        align-self: flex-start;
+        margin-bottom: 1.5rem;
+    }
+
+    .portfolio__experiences-overlay_info-map >:nth-child(3) {
+        align-self: flex-start;
+    }
+
+    .first-image {
+        right: 300px;
+    }
+
+    .second-image {
+        left: 300px;
+        top: 300px;
+    }
+
+    .third-image {
+        display: none;
+    }
+}
+
 
