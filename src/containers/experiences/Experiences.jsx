@@ -3,13 +3,14 @@ import Experience from '../../components/experience/Experience';
 import figureImage1 from '../../assets/Holographic 3D shape 78 1.png';
 import figureImage2 from '../../assets/Holographic 3D shape 43 1.png';
 import figureImage3 from '../../assets/Holographic 3D shape 14 1.png';
+import resumeFile from '../../assets/resume.pdf';
 import './experiences.css';
 
 const info = [
     {
         title: "Rumbus",
         text: "Collaborated on RUMBus, focusing on the development of user-friendly interfaces, including maps and notifications, to enhance the UPRM bus service app using React Native.",
-        link: ""
+        link: `${resumeFile}`
     }, 
     {
         title: "CPC",
