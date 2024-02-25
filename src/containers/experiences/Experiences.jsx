@@ -13,7 +13,7 @@ const info = [
         link: `${resumeFile}`
     }, 
     {
-        title: "CPC",
+        title: "ICPC",
         text: "Participating in the ICPC, I focused on C++ to tackle LeetCode-similar challenges, cultivating collaboration and problem-solving skills in an international setting.",
         link: "https://icpc.global/"
     },
