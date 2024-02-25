@@ -1,13 +1,13 @@
 import React from 'react';
 import './experience.css';
 
-function Experience({ title, text }) {
+function Experience({ title, text, link}) {
     return (
         <div className='portfolio__experience'>
             <div className='portfolio__experience-content section__width'>
                 <h3>{title}</h3>
                 <p>{text}</p>
-                <a href='#projects' className='transparent-button'><p>Learn more</p></a>
+                <a href={link} target='_blank' className='transparent-button'><p>Learn more</p></a>
             </div>
         </div>
     )
