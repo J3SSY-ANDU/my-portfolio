@@ -15,7 +15,7 @@ const projectsList = {
         {
             title: "GPT-3",
             backgroundImage: gpt3,
-            description: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit.",
+            description: "Full responsive website that seamlessly blends modern UI/UX design principles to showcase the transformative power of GPT-3 AI and its applications in technology.",
             codeIn: "React JS",
             link: ''
         }
