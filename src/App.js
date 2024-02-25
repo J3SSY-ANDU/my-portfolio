@@ -1,11 +1,10 @@
 import './App.css';
-import { Navbar, Header, Experiences, Projects, HireMe, Footer } from './containers';
+import { Header, Experiences, Projects, HireMe, Footer } from './containers';
 
 function App() {
   return (
     <div className="App">
       <div className='portfolio__app-header'>
-        <Navbar/>
         <Header/>
         <div className='portfolio__app-footer'>
           <Experiences/>

@@ -39,7 +39,19 @@ a {
 }
 
 @media screen and (min-width: 1700px) {
-    .section__width-tv {
+    .section__width {
         width: 1500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section__width {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section__width {
+        width: 350px;
     }
 }
