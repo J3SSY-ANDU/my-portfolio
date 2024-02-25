@@ -168,11 +168,13 @@
     .portfolio__header-container_intro-text h1 {
         font-size: 55px;
         line-height: 60px;
+        margin-bottom: 1rem;
     }
 
     .portfolio__header-container_intro-text p {
         font-size: 16px;
         line-height: 22px;
+        margin-bottom: 1rem;
     }
 
     .portfolio__header-container_intro-text i {
