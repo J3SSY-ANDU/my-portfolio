@@ -26,7 +26,7 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
-
+    text-align: center;
     color: #FFFFFF;
     margin-bottom: 1rem;
 }
@@ -86,7 +86,7 @@
     all: unset;
     font-family: 'Raleway';
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
 
     color: #FFFFFF;
@@ -100,4 +100,82 @@
     padding: 0.75rem 1.25rem;
     background: radial-gradient(117.2% 787.56% at -7.6% 100%, #5EE4C6 3.5%, #77B7F7 31%, #5358D9 55.5%, #7F5DEB 83%, #C86CE2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     border-radius: 30px;
+}
+
+@media screen and (min-width: 1700px) {
+    .portfolio__hireMe-container_input div > input {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .portfolio__hireMe-container_heading h1 {
+        margin-bottom: 2rem;
+    }
+    .portfolio__hireMe-container_heading p {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .gradient__button {
+        font-size: 28px;
+        line-height: 36px;
+        padding: 0.75rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__hireMe-container_input div > input {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .portfolio__hireMe-container_heading h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .portfolio__hireMe-container_heading p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .gradient__button {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0.5rem 1.25rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__hireMe-container_input > div:first-child {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .portfolio__hireMe-container_input > div:first-child > input:first-child {
+        margin-bottom: 5rem;
+    }
+
+    .portfolio__hireMe-container_input div > input {
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+    }
+
+    .portfolio__hireMe-container_heading h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .portfolio__hireMe-container_heading p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .gradient__button {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 0.5rem 1rem;
+    }
 }
