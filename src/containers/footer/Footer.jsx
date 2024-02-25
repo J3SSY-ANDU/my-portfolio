@@ -14,7 +14,6 @@ function Footer() {
                     <p>-Tim Notke</p>
                 </div>
                 <div className='portfolio__footer-container_links'>
-                
                     <a href='https://github.com/J3SSY-ANDU' target='_blank'><img src={githubImage} /></a>
                     <a href='mailto:jessy.andujar@upr.edu' target='_blank'><img src={envelopeImage}/></a>
                     <a href={resumeFile} target='_blank'><img src={fileImage}/></a>
