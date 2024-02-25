@@ -47,8 +47,6 @@
 
 .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
     align-self: flex-start;
-    text-align: center;
-    padding: 0.75rem 1.25rem;
 }
 
 .portfolio__experiences-overlay_info-map > :nth-child(2)  {
@@ -107,13 +105,18 @@
     }
 
     .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
-        padding: 1rem 1.5rem;
+        padding: 0rem 1rem;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .portfolio__experience-content h3, .portfolio__experience-content p {
         margin: 0.6rem;
+    }
+
+    .portfolio__experiences-overlay_info-map >:nth-child(1),
+    .portfolio__experiences-overlay_info-map >:nth-child(2)  {
+        margin-bottom: 1.5rem;
     }
 
     .first-image {
@@ -127,6 +130,10 @@
     .third-image {
         right: 600px;
         top: 650px;
+    }
+
+    .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
+        padding: 0rem 0.75rem;
     }
 }
 
@@ -143,7 +150,6 @@
     .portfolio__experiences-overlay_info-map >:nth-child(1),
     .portfolio__experiences-overlay_info-map >:nth-child(2)  {
         align-self: flex-start;
-        margin-bottom: 1.5rem;
     }
 
     .portfolio__experiences-overlay_info-map >:nth-child(3) {

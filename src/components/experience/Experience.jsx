@@ -7,7 +7,7 @@ function Experience({ title, text }) {
             <div className='portfolio__experience-content section__width'>
                 <h3>{title}</h3>
                 <p>{text}</p>
-                <p className='transparent-button'><a href='#projects'>Learn more</a></p>
+                <a href='#projects' className='transparent-button'><p>Learn more</p></a>
             </div>
         </div>
     )

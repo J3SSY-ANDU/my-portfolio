@@ -28,6 +28,7 @@ a {
     border-radius: 30px;
     outline: none;
     padding: 0.5rem 1.25rem;
+    cursor: pointer;
 }
 
 .portfolio__app-header {

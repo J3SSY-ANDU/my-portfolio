@@ -25,10 +25,6 @@
     color: #FFFFFF;
 }
 
-.portfolio__experience-content:last-child {
-    cursor: pointer;
-}
-
 @media screen and (min-width: 1700px) {
     .portfolio__experience {
         width: 650px;
