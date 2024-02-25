@@ -97,8 +97,8 @@
         line-height: 32px;
     }
 
-    .portfolio__navbar-links_container p:last-child {
-        padding: 0.5rem 1.5rem;
+    .portfolio__navbar-links_container a:last-child {
+        padding: 0.85rem 1.75rem;
     }
 }
 
