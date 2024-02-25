@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c990e70e.css",
+    "main.css": "/my-portfolio/static/css/main.dbb469d9.css",
     "main.js": "/my-portfolio/static/js/main.1c29bd72.js",
     "static/media/gpt3.png": "/my-portfolio/static/media/gpt3.c8cfc9f44def07abf652.png",
     "static/media/profile-photo.png": "/my-portfolio/static/media/profile-photo.62e5c625037e13e93480.png",
@@ -9,11 +9,11 @@
     "static/media/Holographic 3D shape 78 1.png": "/my-portfolio/static/media/Holographic 3D shape 78 1.20350be6d15cda114cd4.png",
     "static/media/Holographic 3D shape 14 1.png": "/my-portfolio/static/media/Holographic 3D shape 14 1.59aa17dd283fe2995910.png",
     "index.html": "/my-portfolio/index.html",
-    "main.c990e70e.css.map": "/my-portfolio/static/css/main.c990e70e.css.map",
+    "main.dbb469d9.css.map": "/my-portfolio/static/css/main.dbb469d9.css.map",
     "main.1c29bd72.js.map": "/my-portfolio/static/js/main.1c29bd72.js.map"
   },
   "entrypoints": [
-    "static/css/main.c990e70e.css",
+    "static/css/main.dbb469d9.css",
     "static/js/main.1c29bd72.js"
   ]
 }
