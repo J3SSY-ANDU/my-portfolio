@@ -16,36 +16,8 @@ const projectsList = {
             title: "GPT-3",
             backgroundImage: gpt3,
             description: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit.",
-            codeIn: "React",
+            codeIn: "React JS",
             link: ''
-        },
-        {
-            title: "GERISH",
-            backgroundImage: portfolioImage,
-            description: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit.",
-            codeIn: "React",
-            link: ''
-        },
-        {
-            title: "Youtube",
-            backgroundImage: portfolioImage,
-            description: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit.",
-            codeIn: "React",
-            link: ""
-        },
-        {
-            title: "AirBnb",
-            backgroundImage: portfolioImage,
-            description: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit.",
-            codeIn: "React",
-            link: ""
-        },
-        {
-            title: "Canvas",
-            backgroundImage: portfolioImage,
-            description: "Lorem ipsum dolor sit amet consectetur. Pellentesque nisl pellentesque in id tortor ultrices eu scelerisque elit.",
-            codeIn: "React",
-            link: ""
         }
     ]
 }
