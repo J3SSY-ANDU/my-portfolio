@@ -41,8 +41,8 @@
     align-items: flex-start;
 }
 
-.portfolio__experience-content h3, .portfolio__experience-content p {
-    margin: 0.75rem;
+.portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
+    margin: 0.75rem 0;
 }
 
 .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
@@ -82,8 +82,8 @@
 }
 
 @media screen and (min-width: 1700px) {
-    .portfolio__experience-content h3, .portfolio__experience-content p {
-        margin: 1rem;
+    .portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
+        margin: 1rem 0;
     }
 
     .portfolio__experiences-title h1{
@@ -105,13 +105,13 @@
     }
 
     .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
-        padding: 0rem 1rem;
+        padding: 0.75rem 1.25rem;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .portfolio__experience-content h3, .portfolio__experience-content p {
-        margin: 0.6rem;
+    .portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
+        margin: 0.6rem 0;
     }
 
     .portfolio__experiences-overlay_info-map >:nth-child(1),
@@ -133,13 +133,13 @@
     }
 
     .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
-        padding: 0rem 0.75rem;
+        padding: 0.4rem 0.8rem;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .portfolio__experience-content h3, .portfolio__experience-content p {
-        margin: 0.5rem;
+    .portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
+        margin: 0.5rem 0;
     }
 
     .portfolio__experiences-title h1{
@@ -147,12 +147,7 @@
         line-height: 32px;
     }
 
-    .portfolio__experiences-overlay_info-map >:nth-child(1),
-    .portfolio__experiences-overlay_info-map >:nth-child(2)  {
-        align-self: flex-start;
-    }
-
-    .portfolio__experiences-overlay_info-map >:nth-child(3) {
+    .portfolio__experiences-overlay_info-map div {
         align-self: flex-start;
     }
 
