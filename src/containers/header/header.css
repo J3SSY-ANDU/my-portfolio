@@ -179,7 +179,7 @@
         margin-bottom: 2rem;
     }
 
-    .portfolio__header-container_intro-text p {
+    .portfolio__header-container_intro-text p:not(p:last-child) {
         font-size: 16px;
         line-height: 22px;
         margin-bottom: 2rem;
