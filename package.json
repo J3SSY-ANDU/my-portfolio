@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://J3SSY-ANDU.github.io/my-portfolio",
+  "homepage": "https://jessyandujarcruz.com",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
