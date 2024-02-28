@@ -5,8 +5,8 @@ import './navbar.css';
 
 const Menu = () => (
     <>
-        <a href='#experience'><p>About</p></a>
-        <a href='#projects'><p>Projects</p></a>
+        <a href='#experience'><p className='links-hover'>About</p></a>
+        <a href='#projects'><p className='links-hover'>Projects</p></a>
         <a href='#hire-me' className='transparent-button'><p>Hire me</p></a>
     </>
 )

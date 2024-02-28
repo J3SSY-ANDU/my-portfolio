@@ -38,9 +38,9 @@ function Experiences() {
                         ))}
                     </div>
                     <div className='portfolio__experiences-container_overlay-images'>
-                        <img alt='figure-1' src={figureImage1} className='first-image'/>
-                        <img alt='figure-2' src={figureImage2} className='second-image'/>
-                        <img alt='figure-3' src={figureImage3} className='third-image'/>
+                        <img alt='decoration 1' src={figureImage1} className='first-image'/>
+                        <img alt='decoration 2' src={figureImage2} className='second-image'/>
+                        <img alt='decoration 3' src={figureImage3} className='third-image'/>
                     </div>
                 </div>
             </div>
