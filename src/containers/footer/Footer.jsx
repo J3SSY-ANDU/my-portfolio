@@ -15,9 +15,9 @@ function Footer() {
                     <p>-Tim Notke</p>
                 </div>
                 <div className='portfolio__footer-container_links'>
-                    <a href='https://github.com/J3SSY-ANDU' target='_blank'><img src={githubImage} /></a>
-                    <a href='mailto:jessy.andujar@upr.edu' target='_blank'><img src={envelopeImage}/></a>
-                    <a href={resumeFile} target='_blank'><img src={fileImage}/></a>
+                    <a href='https://github.com/J3SSY-ANDU' target='_blank' rel='noreferrer'><img src={githubImage} alt='github link' /></a>
+                    <a href='mailto:jessy.andujar@upr.edu' target='_blank' rel='noreferrer'><img src={envelopeImage} alt='email link' /></a>
+                    <a href={resumeFile} target='_blank' rel='noreferrer'><img src={fileImage} alt='resume link' /></a>
                 </div>
                 <p>University of Puerto Rico at Mayagüez</p>
                 <div style={{display: "flex", justifyContent: "flex-start", alignItems: "center", height: "16px"}}>
