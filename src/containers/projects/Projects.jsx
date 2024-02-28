@@ -17,7 +17,7 @@ const projectsList = {
             backgroundImage: gpt3,
             description: "Full responsive website that seamlessly blends modern UI/UX design principles to showcase the transformative power of GPT-3 AI and its applications in technology.",
             codeIn: "React JS",
-            link: ''
+            link: 'https://j3ssy-andu.github.io/gpt3/'
         }
     ]
 }

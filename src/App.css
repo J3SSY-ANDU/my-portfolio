@@ -29,6 +29,14 @@ a {
     outline: none;
     padding: 0.75rem 1.65rem;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.transparent-button:hover {
+    transform: scale(1.05);
+    border-color: transparent;
+    background: radial-gradient(117.2% 787.56% at -7.6% 100%, #5EE4C6 3.5%, #77B7F7 31%, #5358D9 55.5%, #7F5DEB 83%, #C86CE2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0 0 12px #ffffff48;
 }
 
 .portfolio__app-header {
