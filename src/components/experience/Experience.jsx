@@ -7,7 +7,7 @@ function Experience({ title, text, link}) {
             <div className='portfolio__experience-content section__width'>
                 <h3>{title}</h3>
                 <p>{text}</p>
-                <a href={link} target='_blank' className='transparent-button'><p>Learn more</p></a>
+                <a href={link} target='_blank' className='transparent-button'><p>Visit Website</p></a>
             </div>
         </div>
     )
