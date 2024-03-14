@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef5f46db.css",
-    "main.js": "/static/js/main.2bf685f5.js",
+    "main.js": "/static/js/main.2a8c9fef.js",
     "static/media/gericht.png": "/static/media/gericht.da2854a23a0b0d27fdda.png",
     "static/media/nft-distro.png": "/static/media/nft-distro.15d46e17d22b79e66616.png",
     "static/media/gpt3.png": "/static/media/gpt3.c8cfc9f44def07abf652.png",
@@ -14,10 +14,10 @@
     "index.html": "/index.html",
     "static/media/copyright-regular.svg": "/static/media/copyright-regular.fbb97be58b6a4de65a5c976d1eb86e16.svg",
     "main.ef5f46db.css.map": "/static/css/main.ef5f46db.css.map",
-    "main.2bf685f5.js.map": "/static/js/main.2bf685f5.js.map"
+    "main.2a8c9fef.js.map": "/static/js/main.2a8c9fef.js.map"
   },
   "entrypoints": [
     "static/css/main.ef5f46db.css",
-    "static/js/main.2bf685f5.js"
+    "static/js/main.2a8c9fef.js"
   ]
 }
