@@ -121,7 +121,7 @@
     }
 
     .portfolio__header-container_intro-image img {
-        width: 90%;
+        width: 80%;
     }
 
     .portfolio__header-container_intro-text i {
@@ -149,7 +149,7 @@
 
     .portfolio__header-container_intro-text h1 {
         font-size: 80px;
-        line-height: 100px;
+        line-height: 80px;
     }
 
     .portfolio__header-container_intro-text p {
@@ -164,7 +164,7 @@
     }
 
     .portfolio__header-container_intro-image img {
-        width: 50%;
+        width: 40%;
         height: 100%;
     }
 
@@ -181,7 +181,7 @@
 
     .portfolio__header-container_intro-text {
         width: 100%;
-        gap: 1rem;
+        gap: 0.5rem;
     }
     .portfolio__header-container_intro-text h1 {
         font-size: 55px;
@@ -201,6 +201,6 @@
     }
 
     .portfolio__header-container_intro-image img {
-        width: 85%;
+        width: 60%;
     }
 }
