@@ -9,7 +9,7 @@ import './footer.css';
 function Footer() {
     return (
         <div className='portfolio__footer'>
-            <div className='portfolio__footer-container section__width'>
+            <div className='portfolio__footer-container section__width section__padding'>
                 <div className='portfolio__footer-container_quote'>
                     <h1>“Hard work beats talent when talent doesn't work hard”</h1>
                     <p>-Tim Notke</p>

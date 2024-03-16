@@ -34,8 +34,7 @@ a {
 
 .transparent-button:hover {
     transform: scale(110%);
-    border: none;
-    padding: 0.8125rem 1.7125rem;
+    border-color: transparent;
     background: radial-gradient(117.2% 787.56% at -7.6% 100%, #5EE4C6 3.5%, #77B7F7 31%, #5358D9 55.5%, #7F5DEB 83%, #C86CE2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     box-shadow: 0 0 12px #ffffff48;
 }
