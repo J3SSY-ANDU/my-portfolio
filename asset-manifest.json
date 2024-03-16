@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd522b7d.css",
-    "main.js": "/static/js/main.38cb3651.js",
+    "main.css": "/static/css/main.fdf30117.css",
+    "main.js": "/static/js/main.e1bbe84d.js",
     "static/media/gericht.png": "/static/media/gericht.da2854a23a0b0d27fdda.png",
     "static/media/nft-distro.png": "/static/media/nft-distro.15d46e17d22b79e66616.png",
     "static/media/gpt3.png": "/static/media/gpt3.c8cfc9f44def07abf652.png",
@@ -13,11 +13,11 @@
     "static/media/Holographic 3D shape 14 1.png": "/static/media/Holographic 3D shape 14 1.59aa17dd283fe2995910.png",
     "index.html": "/index.html",
     "static/media/copyright-regular.svg": "/static/media/copyright-regular.fbb97be58b6a4de65a5c976d1eb86e16.svg",
-    "main.cd522b7d.css.map": "/static/css/main.cd522b7d.css.map",
-    "main.38cb3651.js.map": "/static/js/main.38cb3651.js.map"
+    "main.fdf30117.css.map": "/static/css/main.fdf30117.css.map",
+    "main.e1bbe84d.js.map": "/static/js/main.e1bbe84d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd522b7d.css",
-    "static/js/main.38cb3651.js"
+    "static/css/main.fdf30117.css",
+    "static/js/main.e1bbe84d.js"
   ]
 }
