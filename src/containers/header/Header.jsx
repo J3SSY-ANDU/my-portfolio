@@ -20,7 +20,6 @@ function Header() {
                         <img src={profileImage} alt='profile'/>
                     </div>
                 </div>
-                
             </div>
         </div>
     )
