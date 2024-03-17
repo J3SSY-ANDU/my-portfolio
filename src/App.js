@@ -2,21 +2,28 @@ import './App.css';
 import { Header, Experiences, Projects, HireMe, Footer } from './containers';
 import Loader from './components/loader/Loader';
 import { useEffect, useState } from 'react';
+import profileImage from './assets/profile-photo.png';
 import { Fade } from '@mui/material';
 function App() {
-  const [loader, setLoader] = useState(true);
+  const [profileImageLoaded, setProfileImageLoaded] = useState(false);
+  const [imageLoadTime, setImageLoadTime] = useState(0);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoader(false);
-    }, 1100);
-  })
+    useEffect(() => {
+        const img = new Image();
+        const startTime = performance.now();
+        img.src = profileImage;
+        img.onload = () => {
+          const endTime = performance.now();
+          setImageLoadTime(endTime - startTime)
+          setProfileImageLoaded(true);
+        };
+    }, []);
   return (
-    loader ? <Loader /> : (
+    !profileImageLoaded ? <Loader imageLoadTime={imageLoadTime} /> : (
       <Fade in={true} timeout={{enter: 2000, exit: 2000}}>
         <div className="App">
           <div className='portfolio__app-header'>
-            <Header/>
+            <Header profileImage={profileImage}/>
             <div className='portfolio__app-footer'>
               <Experiences/>
               <Projects/>

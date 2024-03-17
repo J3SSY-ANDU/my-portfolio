@@ -1,9 +1,8 @@
 import React from 'react';
 import './header.css';
-import profileImage from '../../assets/profile-photo.png';
 import Navbar from '../navbar/Navbar';
 
-function Header() {
+function Header({ profileImage }) {
     return (
         <div className='portfolio__header'>
             <div className='portfolio__header-container section__width'>

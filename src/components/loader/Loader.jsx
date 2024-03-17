@@ -1,22 +1,22 @@
 import React, { useEffect, useState } from 'react';
-import { Box, Grow, LinearProgress, Typography } from '@mui/material';
+import { Box, Grow, LinearProgress } from '@mui/material';
 import './loader.css';
 
-const Loader = () => {
+const Loader = ({imageLoadTime}) => {
     const [progress, setProgress] = useState(0);
 
     useEffect(() => {
         const timer = setInterval(() => {
             setProgress((prevProgress) => {
-                const newProgress = prevProgress + 20;
+                const newProgress = prevProgress + (100 / imageLoadTime);
                 return newProgress >= 100 ? 100 : newProgress;
             });
-        }, 140);
+        }, imageLoadTime);
 
         return () => {
             clearInterval(timer);
         };
-    }, []);
+    }, [imageLoadTime]);
 
     return (
         <Grow in={true} timeout={{ enter: 1000, exit: 1000}} style={{ transformOrigin: 'center'}}>
