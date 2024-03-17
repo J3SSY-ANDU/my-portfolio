@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.fdf30117.css",
-    "main.js": "/static/js/main.a5fb5d5d.js",
-    "static/media/gericht.png": "/static/media/gericht.da2854a23a0b0d27fdda.png",
-    "static/media/nft-distro.png": "/static/media/nft-distro.15d46e17d22b79e66616.png",
-    "static/media/gpt3.png": "/static/media/gpt3.c8cfc9f44def07abf652.png",
-    "static/media/profile-photo.png": "/static/media/profile-photo.5aaf4d17f39a8d5228b7.png",
-    "static/media/portfolio.png": "/static/media/portfolio.88ab944796e67b9fb564.png",
-    "static/media/Holographic 3D shape 43 1.png": "/static/media/Holographic 3D shape 43 1.fe34c0e32bcbcfe03323.png",
-    "static/media/Holographic 3D shape 78 1.png": "/static/media/Holographic 3D shape 78 1.20350be6d15cda114cd4.png",
+    "main.js": "/static/js/main.b274d074.js",
+    "static/media/gericht.png": "/static/media/gericht.e06f5ad3fc1cb07afb19.png",
+    "static/media/gpt3.png": "/static/media/gpt3.ec54c4f7318b8d0f8a49.png",
+    "static/media/nft-distro.png": "/static/media/nft-distro.9d43a6dba73d15988f82.png",
+    "static/media/profile-photo.png": "/static/media/profile-photo.488582c497ca0f44728d.png",
+    "static/media/portfolio.png": "/static/media/portfolio.e6bf05f19d907a08605e.png",
     "static/media/resume.pdf": "/static/media/resume.c7749ab45edb20276fe7.pdf",
-    "static/media/Holographic 3D shape 14 1.png": "/static/media/Holographic 3D shape 14 1.59aa17dd283fe2995910.png",
+    "static/media/Holographic 3D shape 43 1.png": "/static/media/Holographic 3D shape 43 1.843c4e1e3895d2ea3ca2.png",
+    "static/media/Holographic 3D shape 78 1.png": "/static/media/Holographic 3D shape 78 1.6fdbcbda6f16ac29b983.png",
+    "static/media/Holographic 3D shape 14 1.png": "/static/media/Holographic 3D shape 14 1.d672a58e6de4291358e5.png",
     "index.html": "/index.html",
     "static/media/copyright-regular.svg": "/static/media/copyright-regular.fbb97be58b6a4de65a5c976d1eb86e16.svg",
     "main.fdf30117.css.map": "/static/css/main.fdf30117.css.map",
-    "main.a5fb5d5d.js.map": "/static/js/main.a5fb5d5d.js.map"
+    "main.b274d074.js.map": "/static/js/main.b274d074.js.map"
   },
   "entrypoints": [
     "static/css/main.fdf30117.css",
-    "static/js/main.a5fb5d5d.js"
+    "static/js/main.b274d074.js"
   ]
 }
