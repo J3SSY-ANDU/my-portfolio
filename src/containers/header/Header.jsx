@@ -17,7 +17,7 @@ function Header() {
                         <a href='#projects' className='gradient__button-header'><p>View Projects</p></a>
                     </div>
                     <div className='portfolio__header-container_intro-image'>
-                        <img src={profileImage} alt='profile'/>
+                        <img src={profileImage} alt='profile' fetchpriority={'high'}/>
                     </div>
                 </div>
             </div>

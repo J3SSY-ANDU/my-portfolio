@@ -13,7 +13,7 @@ function App() {
   })
   return (
     loader ? <Loader /> : (
-      <Fade in={true} timeout={{enter: '2000ms'}}>
+      <Fade in={true} timeout={{enter: 2000, exit: 2000}}>
         <div className="App">
           <div className='portfolio__app-header'>
             <Header/>
