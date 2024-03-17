@@ -5,8 +5,8 @@ import Navbar from '../navbar/Navbar';
 
 function Header() {
     return (
-        <div className='portfolio__header section__padding'>
-            <div className='portfolio__header-container section__width section__width-tv'>
+        <div className='portfolio__header'>
+            <div className='portfolio__header-container section__width'>
                 <div className='portfolio__header-container_navbar'>
                     <Navbar />
                 </div>

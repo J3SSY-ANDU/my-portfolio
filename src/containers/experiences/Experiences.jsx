@@ -26,7 +26,7 @@ const info = [
 
 function Experiences() {
     return (
-        <div className='portfolio__experiences section__padding' id='experience'>
+        <div className='portfolio__experiences' id='experience'>
             <div className='portfolio__experiences-title'>
                 <h1>Experience</h1>
             </div>

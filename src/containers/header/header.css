@@ -4,6 +4,7 @@
     align-items: flex-start;
     flex-direction: row;
     height: 100vh;
+    padding: 4rem 0 0 0;
 }
 
 .portfolio__header-container {
@@ -133,14 +134,16 @@
 
 @media screen and (max-width: 1000px) {
     .portfolio__header-container {
-        gap: 4rem;
+        gap: 6rem;
     }
 
     .portfolio__header-container_intro {
         flex-direction: column-reverse;
+        gap: 3rem;
     }
 
     .portfolio__header-container_intro-text {
+        justify-content: flex-start;
         align-items: center;
         text-align: center;
         width: 80%;
@@ -175,8 +178,16 @@
 }
 
 @media screen and (max-width: 500px) {
+    .portfolio__header {
+        padding-top: 2rem;
+    }
+
     .portfolio__header-container {
-        gap: 3rem;
+        gap: 4rem;
+    }
+
+    .portfolio__header-container_intro {
+        gap: 2rem;
     }
 
     .portfolio__header-container_intro-text {
