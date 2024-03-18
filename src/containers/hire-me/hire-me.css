@@ -61,6 +61,7 @@
     font-size: 20px;
     border-bottom: 1px solid #fff;
     width: 45%;
+    padding-bottom: 5px;
 }
 
 .portfolio__hireMe-container_input input[type="textarea"] {

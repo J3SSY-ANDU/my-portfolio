@@ -2,8 +2,7 @@ import './App.css';
 import { Header, Experiences, Projects, HireMe, Footer } from './containers';
 import Loader from './components/loader/Loader';
 import { useEffect, useState } from 'react';
-import profileImage from './assets/profile-photo.png';
-import { Fade } from '@mui/material';
+import profileImage from './assets/profile-photo.webp';
 function App() {
   const [profileImageLoaded, setProfileImageLoaded] = useState(false);
   const [imageLoadTime, setImageLoadTime] = useState(0);
@@ -20,7 +19,6 @@ function App() {
     }, []);
   return (
     !profileImageLoaded ? <Loader imageLoadTime={imageLoadTime} /> : (
-      <Fade in={true} timeout={{enter: 2000, exit: 2000}}>
         <div className="App">
           <div className='portfolio__app-header'>
             <Header profileImage={profileImage}/>
@@ -33,7 +31,6 @@ function App() {
             
           </div>
         </div>
-      </Fade>
     )
   );
 }
