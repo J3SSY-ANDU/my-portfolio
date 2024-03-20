@@ -21,7 +21,7 @@ function App() {
     !profileImageLoaded ? <Loader imageLoadTime={imageLoadTime} /> : (
       <div className="App">
         <div className='portfolio__app-header'>
-          <Header/>
+          <Header profileImage={profileImage}/>
           <div className='portfolio__app-body'>
             <div style={{marginBottom: '5%'}}>
               <Experiences/>
