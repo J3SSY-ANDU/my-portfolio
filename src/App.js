@@ -6,13 +6,20 @@ function App() {
     <div className="App">
       <div className='portfolio__app-header'>
         <Header/>
-        <div className='portfolio__app-footer'>
-          <Experiences/>
-          <Projects/>
-          <HireMe/>
-          <Footer/>
+        <div className='portfolio__app-body'>
+          <div style={{marginBottom: '5%'}}>
+            <Experiences/>
+          </div>
+          <div style={{margin: '5% 0'}}>
+            <Projects/>
+          </div>
+          <div style={{margin: '5% 0'}}>
+            <HireMe/>
+          </div>
+          <div>
+            <Footer/>
+          </div>
         </div>
-        
       </div>
     </div>
   );

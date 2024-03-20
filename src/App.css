@@ -43,7 +43,7 @@ a {
     background: linear-gradient(15deg, rgba(0, 0, 0, 0) 40%, rgba(25, 55, 109, 0.59) 100%);    
 }
 
-.portfolio__app-footer {
+.portfolio__app-body {
     background: radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 0) 50%, rgba(25, 55, 109, 0.30) 100%);
 }
 

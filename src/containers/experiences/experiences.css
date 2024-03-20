@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 0;
 }
 
 .portfolio__experiences-title h1{
@@ -110,6 +111,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .portfolio__experiences {
+        padding-top: 4rem;
+    }
+
     .portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
         margin-bottom: 0.75rem;
     }
