@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 4rem;
 }
 
 .portfolio__hireMe-container_heading {
@@ -16,7 +17,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 4rem;
+    gap: 1rem;
     width: 100%;
 }
 
@@ -27,7 +28,6 @@
     line-height: 55px;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 1rem;
 }
 
 .portfolio__hireMe-container_heading p {
@@ -46,21 +46,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 4rem;
 }
-.portfolio__hireMe-container_input div {
+.portfolio__hireMe-container_input > div {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 50px;
-    margin-bottom: 4rem;
-}
-
-.portfolio__hireMe-container_input > div:first-child {
-    flex: 1;
-}
-
-.portfolio__hireMe-container_input > div:last-child {
-    flex: 2;
 }
 
 .portfolio__hireMe-container_input div > input {
@@ -68,13 +59,9 @@
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
     border-bottom: 1px solid #fff;
     width: 45%;
-}
-
-.portfolio__hireMe-container_input div:first-child > input {
-    padding-bottom: 0.75rem;
+    padding-bottom: 5px;
 }
 
 .portfolio__hireMe-container_input input[type="textarea"] {
@@ -102,15 +89,16 @@
 }
 
 @media screen and (min-width: 1700px) {
-    .portfolio__hireMe-container_input div > input {
+    .portfolio__hireMe-container_heading {
+        gap: 2rem;
+    }
+
+    .portfolio__hireMe-container_heading p {
         font-size: 28px;
         line-height: 36px;
     }
 
-    .portfolio__hireMe-container_heading h1 {
-        margin-bottom: 2rem;
-    }
-    .portfolio__hireMe-container_heading p {
+    .portfolio__hireMe-container_input div > input {
         font-size: 28px;
         line-height: 36px;
     }
@@ -123,9 +111,8 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .portfolio__hireMe-container_input div > input {
-        font-size: 18px;
-        line-height: 26px;
+    .portfolio__hireMe-container {
+        gap: 3rem;
     }
 
     .portfolio__hireMe-container_heading h1 {
@@ -138,6 +125,15 @@
         line-height: 26px;
     }
 
+    .portfolio__hireMe-container_input {
+        gap: 3rem;
+    }
+    
+    .portfolio__hireMe-container_input div > input {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
     .gradient__button {
         font-size: 18px;
         line-height: 26px;
@@ -146,32 +142,36 @@
 }
 
 @media screen and (max-width: 500px) {
-    .portfolio__hireMe-container_input > div:first-child {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .portfolio__hireMe-container_input > div:first-child > input:first-child {
-        margin-bottom: 5rem;
-    }
-
-    .portfolio__hireMe-container_input div > input {
-        font-size: 16px;
-        line-height: 22px;
-        width: 100%;
+    .portfolio__hireMe-container {
+        gap: 3rem;
     }
 
     .portfolio__hireMe-container_heading h1 {
         font-size: 32px;
         line-height: 38px;
     }
-
+    
     .portfolio__hireMe-container_heading p {
         font-size: 16px;
         line-height: 24px;
     }
+    
+    .portfolio__hireMe-container_input {
+        gap: 3rem;
+    }
 
+    .portfolio__hireMe-container_input > div:first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+
+    .portfolio__hireMe-container_input div > input {
+        font-size: 16px;
+        width: 100%;
+    }
     .gradient__button {
         font-size: 16px;
         line-height: 22px;

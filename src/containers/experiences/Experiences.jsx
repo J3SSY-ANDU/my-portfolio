@@ -26,7 +26,7 @@ const info = [
 
 function Experiences() {
     return (
-        <div className='portfolio__experiences section__padding' id='experience'>
+        <div className='portfolio__experiences' id='experience'>
             <div className='portfolio__experiences-title'>
                 <h1>Experience</h1>
             </div>
@@ -38,9 +38,9 @@ function Experiences() {
                         ))}
                     </div>
                     <div className='portfolio__experiences-container_overlay-images'>
-                        <img alt='decoration 1' src={figureImage1} className='first-image'/>
-                        <img alt='decoration 2' src={figureImage2} className='second-image'/>
-                        <img alt='decoration 3' src={figureImage3} className='third-image'/>
+                        <img alt='decoration 1' src={figureImage1} className='first-image' loading='lazy'/>
+                        <img alt='decoration 2' src={figureImage2} className='second-image' loading='lazy'/>
+                        <img alt='decoration 3' src={figureImage3} className='third-image' loading='lazy'/>
                     </div>
                 </div>
             </div>

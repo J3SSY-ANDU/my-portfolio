@@ -16,7 +16,7 @@ function Navbar() {
 
     return (
         <div className='portfolio__navbar'>
-            <div className='portfolio__navbar-links section__width section__width-tv'>
+            <div className='portfolio__navbar-links section__width'>
                 <div className='portfolio__navbar-links_logo'>
                     <h3>Jessy's Portfolio</h3>
                 </div>
