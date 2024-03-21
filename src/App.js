@@ -17,6 +17,7 @@ function App() {
           setProfileImageLoaded(true);
         };
     }, []);
+    
   return (
     !profileImageLoaded ? <Loader imageLoadTime={imageLoadTime} /> : (
       <div className="App">
