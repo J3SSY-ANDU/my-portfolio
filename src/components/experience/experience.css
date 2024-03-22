@@ -8,6 +8,15 @@
     width: 100%;
 }
 
+.portfolio__experience-content div {
+    padding: 4px 0;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    width: 10%;
+    filter: brightness(1.2);
+    background: radial-gradient(117.2% 787.56% at -7.6% 100%, #5EE4C6 3.5%, #77B7F7 31%, #5358D9 55.5%, #7F5DEB 83%, #C86CE2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
 .portfolio__experience-content h3 {
     font-family: 'Montserrat';
     font-weight: 500;

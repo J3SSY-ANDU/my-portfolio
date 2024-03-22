@@ -1,5 +1,4 @@
 import React from 'react';
-import portfolioImage from '../../assets/portfolio.png';
 import gpt3 from '../../assets/gpt3.png';
 import gerichtImage from '../../assets/gericht.png';
 import nftDistro from '../../assets/nft-distro.png';
@@ -12,21 +11,21 @@ const projectsList = {
             title: "GPT-3",
             backgroundImage: gpt3,
             description: "Full responsive website that seamlessly blends modern UI/UX design principles to showcase the transformative power of GPT-3 AI and its applications in technology.",
-            codeIn: "React JS",
+            codeIn: "React & CSS",
             link: 'https://j3ssy-andu.github.io/gpt3/'
         }, 
         {
             title: "NFT DISTRO",
             backgroundImage: nftDistro,
             description: "Full responsive website that seamlessly blends modern UI/UX design principles to showcase the transformative power of GPT-3 AI and its applications in technology.",
-            codeIn: "React JS",
+            codeIn: "React & CSS",
             link: "https://j3ssy-andu.github.io/nft-distro/"
         },
         {
             title: "GERICHT",
             backgroundImage: gerichtImage,
             description: "Full responsive website that seamlessly blends modern UI/UX design principles to showcase the transformative power of GPT-3 AI and its applications in technology.",
-            codeIn: "React JS",
+            codeIn: "React & CSS",
             link: "https://j3ssy-andu.github.io/gericht-restaurant/"
         }
     ]

@@ -59,21 +59,47 @@
 }
 
 .first-image {
-    width: 250px;
     position: absolute;
-    left: -110px;
-    top: 0;
     z-index: -1;
-    filter: blur(2px);
+    width: 200px;
+    filter: drop-shadow(0 0 10px #ffffff6a) blur(2px);
+    animation: FIRST_IMAGE 10s infinite linear;
+}
+
+@keyframes FIRST_IMAGE {
+    0% {
+        left: 100%;
+        bottom: 0;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: -10%;
+        bottom: 100%;
+        width: 100px;
+        transform: rotate(180deg);
+    }
 }
 
 .second-image {
-    width: 250px;
     position: absolute;
-    right: -110px;
-    top: 100px;
     z-index: -1;
-    filter: blur(2px);
+    width: 200px;
+    filter: drop-shadow(0 0 10px #ffffff6a) blur(2px);
+    animation: SECOND_IMAGE 12s infinite linear;
+}
+
+@keyframes SECOND_IMAGE {
+    0% {
+        right: 0;
+        top: -25%;
+        transform: rotate(0deg);
+    }
+    100% {
+        right: 100%;
+        top: 100%;
+        width: 100px;
+        transform: rotate(220deg);
+    }
 }
 
 .third-image {
@@ -82,7 +108,23 @@
     left: 250px;
     bottom: 80px;
     z-index: -1;
-    filter: blur(2px);
+    width: 200px;
+    filter: drop-shadow(0 0 10px #ffffff6a) blur(2px);
+    animation: THIRD_IMAGE 14s infinite linear;
+}
+
+@keyframes THIRD_IMAGE {
+    0% {
+        left: -20%;
+        bottom: 0;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 100%;
+        bottom: 100%;
+        width: 100px;
+        transform: rotate(260deg);
+    }
 }
 
 @media screen and (min-width: 1700px) {

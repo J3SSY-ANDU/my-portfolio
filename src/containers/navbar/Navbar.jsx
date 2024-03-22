@@ -5,7 +5,7 @@ import './navbar.css';
 
 const Menu = () => (
     <>
-        <a href='#experience'><p className='links-hover'>About</p></a>
+        <a href='#experience'><p className='links-hover'>Experience</p></a>
         <a href='#projects'><p className='links-hover'>Projects</p></a>
         <a href='#hire-me' className='transparent-button'><p>Hire me</p></a>
     </>
@@ -18,7 +18,7 @@ function Navbar() {
         <div className='portfolio__navbar'>
             <div className='portfolio__navbar-links section__width'>
                 <div className='portfolio__navbar-links_logo'>
-                    <h3>Jessy's Portfolio</h3>
+                    <h3>My Portfolio</h3>
                 </div>
                 <div className='portfolio__navbar-links_container'>
                     <Menu />
