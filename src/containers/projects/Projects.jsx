@@ -1,7 +1,7 @@
 import React from 'react';
-import gpt3 from '../../assets/gpt3.png';
-import gerichtImage from '../../assets/gericht.png';
-import nftDistro from '../../assets/nft-distro.png';
+import gpt3 from '../../assets/gpt3.webp';
+import gerichtImage from '../../assets/gericht.webp';
+import nftDistro from '../../assets/nft-distro.webp';
 import Project from '../../components/project/Project';
 import './projects.css';
 
