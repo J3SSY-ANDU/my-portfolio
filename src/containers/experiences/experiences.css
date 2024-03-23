@@ -58,33 +58,14 @@
     align-self: flex-end;
 }
 
-.first-image {
+.portfolio__experiences-overlay_images img {
     position: absolute;
     z-index: -1;
     width: 200px;
-    filter: drop-shadow(0 0 10px #ffffff6a) blur(2px);
-    animation: FIRST_IMAGE 10s infinite linear;
-}
-
-@keyframes FIRST_IMAGE {
-    0% {
-        left: 100%;
-        bottom: 0;
-        transform: rotate(0deg);
-    }
-    100% {
-        left: -10%;
-        bottom: 100%;
-        width: 100px;
-        transform: rotate(180deg);
-    }
+    filter: drop-shadow(0 0 10px #ffffff6a) blur(2px) brightness(1.2);
 }
 
 .second-image {
-    position: absolute;
-    z-index: -1;
-    width: 200px;
-    filter: drop-shadow(0 0 10px #ffffff6a) blur(2px);
     animation: SECOND_IMAGE 12s infinite linear;
 }
 
@@ -98,32 +79,97 @@
         right: 100%;
         top: 100%;
         width: 100px;
-        transform: rotate(220deg);
+        transform: rotate(300deg);
     }
 }
 
 .third-image {
-    width: 150px;
-    position: absolute;
-    left: 250px;
-    bottom: 80px;
-    z-index: -1;
-    width: 200px;
-    filter: drop-shadow(0 0 10px #ffffff6a) blur(2px);
     animation: THIRD_IMAGE 14s infinite linear;
 }
 
 @keyframes THIRD_IMAGE {
     0% {
-        left: -20%;
+        left: -25%;
         bottom: 0;
         transform: rotate(0deg);
     }
     100% {
         left: 100%;
         bottom: 100%;
+        width: 70px;
+        transform: rotate(360deg);
+    }
+}
+
+.fifth-image {
+    animation: FIFTH_IMAGE 10s infinite linear;
+}
+
+@keyframes FIFTH_IMAGE {
+    0% {
+        left: 40%;
+        bottom: -25%;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 10%;
+        bottom: 100%;
         width: 100px;
-        transform: rotate(260deg);
+        transform: rotate(360deg);
+    }
+}
+
+.seventh-image {
+    animation: SEVENTH_IMAGE 6s infinite linear;
+}
+
+@keyframes SEVENTH_IMAGE {
+    0% {
+        left: 20%;
+        top: -25%;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 60%;
+        top: 100%;
+        width: 100px;
+        transform: rotate(360deg);
+    }
+}
+
+.nineth-image {
+    animation: NINETH_IMAGE 10s infinite linear;
+}
+
+@keyframes NINETH_IMAGE {
+    0% {
+        left: -25%;
+        top: 40%;
+        transform: rotate(0deg);
+    }
+    100% {
+        left: 100%;
+        top: 60%;
+        width: 70px;
+        transform: rotate(300deg);
+    }
+}
+
+.tenth-image {
+    animation: TENTH_IMAGE 6s infinite linear;
+}
+
+@keyframes TENTH_IMAGE {
+    0% {
+        right: -25%;
+        bottom: 20%;
+        transform: rotate(0deg);
+    }
+    100% {
+        right: 100%;
+        bottom: 60%;
+        width: 100px;
+        transform: rotate(360deg);
     }
 }
 
@@ -135,19 +181,6 @@
     .portfolio__experiences-title h1{
         font-size: 42px;
         line-height: 47px;
-    }
-
-    .first-image {
-        right: 1730px;
-    }
-
-    .second-image {
-        left: 1730px;
-    }
-
-    .third-image {
-        right: 1500px;
-        top: 700px;
     }
 
     .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
@@ -169,19 +202,8 @@
         margin-bottom: 1.5rem;
     }
 
-    .first-image {
-        width: 150px;
-        left: -60px;
-    }
-
-    .second-image {
-        width: 150px;
-        right: -60px;
-    }
-
-    .third-image {
-        width: 100px;
-        left: 100px;
+    .portfolio__experiences-overlay_images img {
+        width: 170px;
     }
 
     .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
@@ -199,20 +221,8 @@
         align-self: flex-start;
     }
 
-    .first-image {
-        width: 100px;
-        left: -50px;
-    }
-
-    .second-image {
-        width: 100px;
-        right: -50px;
-    }
-
-    .third-image {
-        width: 100px;
-        left: 200px;
-        bottom: 100px;
+    .portfolio__experiences-overlay_images img {
+        width: 120px;
     }
 }
 
