@@ -92,13 +92,14 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    align-self: flex-start;
     width: 80%;
+    align-self: flex-start;
 }
 
 .portfolio__header-container_intro-image img {
     position: relative;
-    width: 100%;
+    height: 60%;
+    filter: drop-shadow(0 0 8px #ffffff55);
 }
 
 @media screen and (min-width: 1700px) {
@@ -116,13 +117,8 @@
         padding: 1rem 1.5rem;
     }
 
-    .portfolio__header-container_intro-image {
-        justify-content: flex-end;
-        height: 100%;
-    }
-
     .portfolio__header-container_intro-image img {
-        width: 80%;
+        height: 70%;
     }
 
     .portfolio__header-container_intro-text i {
@@ -162,13 +158,12 @@
 
     .portfolio__header-container_intro-image {
         justify-content: center;
-        height: 50%;
         width: 100%;
     }
 
     .portfolio__header-container_intro-image img {
         width: 40%;
-        height: 100%;
+        height: 90%;
     }
 
     .portfolio__header-container_intro-text i {
