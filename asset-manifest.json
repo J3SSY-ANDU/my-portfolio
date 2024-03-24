@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e5ade55.css",
-    "main.js": "/static/js/main.6b2f640d.js",
+    "main.css": "/static/css/main.cc1eac02.css",
+    "main.js": "/static/js/main.730d65d3.js",
     "static/media/gpt3.webp": "/static/media/gpt3.69e90c0087ca9ead73de.webp",
     "static/media/resume.pdf": "/static/media/resume.c7749ab45edb20276fe7.pdf",
     "static/media/gericht.webp": "/static/media/gericht.310f65ab185c9a93039f.webp",
     "static/media/nft-distro.webp": "/static/media/nft-distro.b263d29d260bf8e892fe.webp",
-    "static/media/profile-photo.webp": "/static/media/profile-photo.9df236741deff409dac4.webp",
+    "static/media/profile-photo.webp": "/static/media/profile-photo.538275f1d78d6e0f7f92.webp",
     "static/media/Holographic 3D shape 43 1.png": "/static/media/Holographic 3D shape 43 1.42f0323d06d947a2daf1.png",
     "static/media/Holographic 3D shape 17.png": "/static/media/Holographic 3D shape 17.3d2428b8846a17a1b102.png",
     "index.html": "/index.html",
     "static/media/copyright-regular.svg": "/static/media/copyright-regular.fbb97be58b6a4de65a5c976d1eb86e16.svg",
-    "main.7e5ade55.css.map": "/static/css/main.7e5ade55.css.map",
-    "main.6b2f640d.js.map": "/static/js/main.6b2f640d.js.map"
+    "main.cc1eac02.css.map": "/static/css/main.cc1eac02.css.map",
+    "main.730d65d3.js.map": "/static/js/main.730d65d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e5ade55.css",
-    "static/js/main.6b2f640d.js"
+    "static/css/main.cc1eac02.css",
+    "static/js/main.730d65d3.js"
   ]
 }
