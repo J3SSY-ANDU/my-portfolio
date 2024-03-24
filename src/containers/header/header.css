@@ -130,7 +130,7 @@
 
 @media screen and (max-width: 1000px) {
     .portfolio__header-container {
-        gap: 6rem;
+        gap: 3rem;
     }
 
     .portfolio__header-container_intro {
@@ -178,7 +178,7 @@
     }
 
     .portfolio__header-container {
-        gap: 4rem;
+        gap: 2rem;
     }
 
     .portfolio__header-container_intro {
