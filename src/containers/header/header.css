@@ -77,7 +77,7 @@
     font-size: 116px;
     position: relative;
     top: 1rem;
-
+    filter: brightness(1.4);
     background-image: conic-gradient(from 117.19deg at 44.58% 50%, #C86CE2 -24.88deg, #61DFC3 48.1deg, #5358D9 95.61deg, #77B7F7 132.22deg, #68D3D3 195.5deg, #46D1B2 261.03deg, #7F5DEB 299.19deg, #C86CE2 335.12deg, #61DFC3 408.1deg);
     background-clip: text;
     -webkit-background-clip: text;

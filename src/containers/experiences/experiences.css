@@ -62,7 +62,7 @@
     position: absolute;
     z-index: -1;
     width: 200px;
-    filter: drop-shadow(0 0 10px #ffffff6a) blur(2px) brightness(1.2);
+    filter: drop-shadow(0 0 10px #ffffff6a) blur(1px) brightness(1.1);
 }
 
 .second-image {

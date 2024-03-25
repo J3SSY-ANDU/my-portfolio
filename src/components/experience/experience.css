@@ -38,6 +38,11 @@
     .portfolio__experience {
         width: 650px;
     }
+
+    .portfolio__experience-content div {
+        padding: 4px 0;
+    }
+
     .portfolio__experience-content h3 {
         font-size: 32px;
         line-height: 40px;
