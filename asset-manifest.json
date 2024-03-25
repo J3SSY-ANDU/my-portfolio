@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc1eac02.css",
+    "main.css": "/static/css/main.f8ba4e5c.css",
     "main.js": "/static/js/main.730d65d3.js",
     "static/media/gpt3.webp": "/static/media/gpt3.69e90c0087ca9ead73de.webp",
     "static/media/resume.pdf": "/static/media/resume.c7749ab45edb20276fe7.pdf",
@@ -11,11 +11,11 @@
     "static/media/Holographic 3D shape 17.png": "/static/media/Holographic 3D shape 17.3d2428b8846a17a1b102.png",
     "index.html": "/index.html",
     "static/media/copyright-regular.svg": "/static/media/copyright-regular.fbb97be58b6a4de65a5c976d1eb86e16.svg",
-    "main.cc1eac02.css.map": "/static/css/main.cc1eac02.css.map",
+    "main.f8ba4e5c.css.map": "/static/css/main.f8ba4e5c.css.map",
     "main.730d65d3.js.map": "/static/js/main.730d65d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc1eac02.css",
+    "static/css/main.f8ba4e5c.css",
     "static/js/main.730d65d3.js"
   ]
 }
