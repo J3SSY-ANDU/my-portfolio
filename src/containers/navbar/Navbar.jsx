@@ -31,11 +31,9 @@ function Navbar() {
                         : <RiMenu3Line color="#fff" size={24} onClick={() => setToggleMenu(true)}/>
                         }
                         {toggleMenu && (
-                            <ScrollAnimation>
                                 <div className='portfolio__navbar-menu_content'>
                                     <Menu />
                                 </div>
-                            </ScrollAnimation>
                             )
                         }
                     </div>
