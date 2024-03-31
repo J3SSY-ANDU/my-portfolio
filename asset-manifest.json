@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9ab607b0.css",
-    "main.js": "/static/js/main.f80163d8.js",
+    "main.js": "/static/js/main.df8fb326.js",
     "static/media/gpt3.webp": "/static/media/gpt3.69e90c0087ca9ead73de.webp",
     "static/media/resume.pdf": "/static/media/resume.c7749ab45edb20276fe7.pdf",
     "static/media/gericht.webp": "/static/media/gericht.310f65ab185c9a93039f.webp",
@@ -12,10 +12,10 @@
     "index.html": "/index.html",
     "static/media/copyright-regular.svg": "/static/media/copyright-regular.fbb97be58b6a4de65a5c976d1eb86e16.svg",
     "main.9ab607b0.css.map": "/static/css/main.9ab607b0.css.map",
-    "main.f80163d8.js.map": "/static/js/main.f80163d8.js.map"
+    "main.df8fb326.js.map": "/static/js/main.df8fb326.js.map"
   },
   "entrypoints": [
     "static/css/main.9ab607b0.css",
-    "static/js/main.f80163d8.js"
+    "static/js/main.df8fb326.js"
   ]
 }
