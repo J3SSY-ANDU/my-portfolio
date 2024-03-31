@@ -8,6 +8,7 @@ import figureImage9 from '../../assets/Holographic 3D shape 49.png';
 import figureImage10 from '../../assets/Holographic 3D shape 56.png';
 import resumeFile from '../../assets/resume.pdf';
 import './experiences.css';
+import ScrollAnimation from '../../components/scroll-animation/ScrollAnimation';
 
 const info = [
     {
@@ -31,7 +32,9 @@ function Experiences() {
     return (
         <div className='portfolio__experiences section__padding' id='experience'>
             <div className='portfolio__experiences-title'>
-                <h1>Experience</h1>
+                <ScrollAnimation>
+                    <h1>Experience</h1>
+                </ScrollAnimation>
             </div>
             <div className='portfolio__experiences-overlay'>
                 <div className='portfolio__experiences-overlay_info'>

@@ -53,10 +53,15 @@
 }
 
 .portfolio__footer-container_links a {
+    cursor: auto;
+}
+
+.portfolio__footer-container_links img {
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.portfolio__footer-container_links a:hover {
+.portfolio__footer-container_links img:hover {
     transform: scale(1.1);
 }
 

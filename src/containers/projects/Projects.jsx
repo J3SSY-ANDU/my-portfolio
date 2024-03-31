@@ -4,6 +4,7 @@ import gerichtImage from '../../assets/gericht.webp';
 import nftDistro from '../../assets/nft-distro.webp';
 import Project from '../../components/project/Project';
 import './projects.css';
+import ScrollAnimation from '../../components/scroll-animation/ScrollAnimation';
 
 const projectsList = {
     projects: [  
@@ -35,17 +36,24 @@ function Projects() {
     return (
         <div className='portfolio__projects section__padding' id='projects'>
             <div className='portfolio__projects-container section__width' >
+                
                 <div className='portfolio__projects-container_heading'>
-                    <h1>Projects</h1>
-                    <p>Here is some of my latest work! If you require a personalized project, feel free to reach out to me!</p>
+                    <ScrollAnimation>
+                        <h1>Projects</h1>
+                    </ScrollAnimation>
+                    <ScrollAnimation>
+                        <p>Here is some of my latest work! If you require a personalized project, feel free to reach out to me!</p>
+                    </ScrollAnimation>
                 </div>
-                <div className='portfolio__projects-container_body'>
-                    {projectsList.projects.map((project, i) => {
-                        return (
-                            <Project title={project.title} backgroundImage={project.backgroundImage} description={project.description} link={project.link} codeIn={project.codeIn} key={project.title + i}/>
-                        )
-                    })}
-                </div>
+                <ScrollAnimation>
+                    <div className='portfolio__projects-container_body'>
+                        {projectsList.projects.map((project, i) => {
+                            return (
+                                <Project title={project.title} backgroundImage={project.backgroundImage} description={project.description} link={project.link} codeIn={project.codeIn} key={project.title + i}/>
+                            )
+                        })}
+                    </div>
+                </ScrollAnimation>               
             </div>
         </div>
     )

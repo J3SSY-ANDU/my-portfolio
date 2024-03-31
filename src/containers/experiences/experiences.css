@@ -40,6 +40,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 1rem;
 }
 
 .portfolio__experience-content h3, .portfolio__experience-content p:not(p:last-child) {
@@ -204,10 +205,6 @@
 
     .portfolio__experiences-overlay_images img {
         width: 170px;
-    }
-
-    .portfolio__experiences-overlay_info-map .portfolio__experience-content > :last-child {
-        padding: 0.6rem 1.3rem;
     }
 }
 

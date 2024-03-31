@@ -48,10 +48,14 @@
     width: 100%;
     gap: 4rem;
 }
-.portfolio__hireMe-container_input > div {
+.portfolio__hireMe-container_input div {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.portfolio__hireMe-container_input > div:first-child {
+    gap: 5rem;
 }
 
 .portfolio__hireMe-container_input div > input {
@@ -59,8 +63,8 @@
     font-family: 'Raleway';
     font-weight: 400;
     font-size: 20px;
+    width: 100%;
     border-bottom: 1px solid #fff;
-    width: 45%;
     padding-bottom: 5px;
 }
 
@@ -68,7 +72,13 @@
     width: 100%;
 }
 
-.gradient__button {
+.portfolio__hireMe-container_input > div:last-child div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gradient__button {
     all: unset;
     font-family: 'Raleway';
     font-weight: 400;
@@ -83,7 +93,7 @@
     transition: all 0.5s ease;
 }
 
-.gradient__button:hover {
+#gradient__button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 12px #ffffff5f;
 }
@@ -98,12 +108,16 @@
         line-height: 36px;
     }
 
+    .portfolio__hireMe-container_input > div:first-child {
+        gap: 10rem;
+    }
+
     .portfolio__hireMe-container_input div > input {
         font-size: 28px;
         line-height: 36px;
     }
 
-    .gradient__button {
+    #gradient__button {
         font-size: 28px;
         line-height: 36px;
         padding: 0.75rem 1.5rem;
@@ -134,7 +148,7 @@
         line-height: 26px;
     }
 
-    .gradient__button {
+    #gradient__button {
         font-size: 18px;
         line-height: 26px;
         padding: 0.5rem 1.25rem;
@@ -155,10 +169,6 @@
         font-size: 16px;
         line-height: 24px;
     }
-    
-    .portfolio__hireMe-container_input {
-        gap: 3rem;
-    }
 
     .portfolio__hireMe-container_input > div:first-child {
         display: flex;
@@ -172,7 +182,7 @@
         font-size: 16px;
         width: 100%;
     }
-    .gradient__button {
+    #gradient__button {
         font-size: 16px;
         line-height: 22px;
         padding: 0.5rem 1rem;
