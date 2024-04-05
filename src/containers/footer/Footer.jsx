@@ -34,7 +34,7 @@ function Footer() {
                 <ScrollAnimation>
                     <div style={{display: "flex", justifyContent: "flex-start", alignItems: "center", height: "16px"}}>
                         <img src={copyrightImage} alt='copyright' style={{height: "100%", alignSelf: "center", marginRight: "0.4rem"}} loading='lazy'/>
-                        <p style={{fontSize: "14px"}}>2023 Jessy Andujar Cruz. All rights reserved.</p>
+                        <p style={{fontSize: "14px"}}>2024 Jessy Andujar Cruz. All rights reserved.</p>
                     </div>
                 </ScrollAnimation>
             </div>
