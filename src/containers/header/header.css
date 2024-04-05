@@ -29,7 +29,6 @@
 }
 
 .portfolio__header-container_intro-text {
-
     width: 70%;
 }
 
@@ -103,7 +102,7 @@
 
 .portfolio__header-container_intro-image img {
     width: 80%;
-    filter: drop-shadow(0 0 8px #ffffff55);
+    filter: drop-shadow(0 0 8px #ffffff3d);
 }
 
 @media screen and (min-width: 1700px) {
