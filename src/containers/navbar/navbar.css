@@ -44,6 +44,10 @@
     margin-left: 4rem;
 } 
 
+.links-hover {
+    transition: all 400ms ease;
+}
+
 .links-hover:hover {
     color: #b9b8b8;
 }
