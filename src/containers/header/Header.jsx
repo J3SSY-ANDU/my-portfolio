@@ -14,8 +14,8 @@ function Header({ profileImage }) {
                 <div className='portfolio__header-container_intro'>
                     <div className='portfolio__header-container_intro-text'>
                         <HeaderTextAnimation>
-                            <h1>Hi, my name is <i>Jessy,</i></h1>
-                            <p>I'm a front-end fanatic and undergrad software engineer, cooking up cool stuff with code.</p>
+                            <h1>Hi! My name is <i>Jessy.</i></h1>
+                            <p>I'm a front-end fanatic and undergrad software engineer, crafting innovative solutions with code.</p>
                             <a href='#projects' className='gradient__button-header'><p>View Projects</p></a>
                         </HeaderTextAnimation>
                     </div>

@@ -1,66 +1,90 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-    color: #fff;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  color: #fff;
 }
 
 body {
-    background: linear-gradient(90deg, rgba(8, 0, 51, 1) 0%, rgba(0, 0, 0, 1) 40%);
+  background: linear-gradient(
+    90deg,
+    rgba(8, 0, 51, 1) 0%,
+    rgba(0, 0, 0, 1) 40%
+  );
 }
 
 a {
-    color: unset;
-    text-decoration: none;
+  color: unset;
+  text-decoration: none;
 }
 
 .section__padding {
-    padding: 4rem 0;
+  padding: 4rem 0;
 }
 
 .section__width {
-    width: 950px;
+  width: 950px;
 }
 
 .transparent-button {
-    border: 1px solid #FFFFFF;
-    border-radius: 30px;
-    outline: none;
-    padding: 0.75rem 1.65rem;
-    cursor: pointer;
-    transition: all 0.5s ease;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  outline: none;
+  padding: 0.75rem 1.65rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .transparent-button:hover {
-    transform: scale(110%);
-    border-color: transparent;
-    background: radial-gradient(117.2% 787.56% at -7.6% 100%, #5EE4C6 3.5%, #77B7F7 31%, #5358D9 55.5%, #7F5DEB 83%, #C86CE2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    box-shadow: 0 0 12px #ffffff48;
+  transform: scale(110%);
+  border-color: transparent;
+  background: radial-gradient(
+      117.2% 787.56% at -7.6% 100%,
+      #5ee4c6 3.5%,
+      #77b7f7 31%,
+      #5358d9 55.5%,
+      #7f5deb 83%,
+      #c86ce2 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 0 0 12px #ffffff48;
 }
 
 .portfolio__app-header {
-    background: linear-gradient(15deg, rgba(0, 0, 0, 0) 40%, rgba(25, 55, 109, 0.59) 100%);    
+  background: linear-gradient(
+    15deg,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(25, 55, 109, 0.59) 100%
+  );
 }
 
 .portfolio__app-body {
-    background: radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 0) 50%, rgba(25, 55, 109, 0.30) 100%);
+  background: radial-gradient(
+    circle at 0% 0%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(25, 55, 109, 0.3) 100%
+  );
 }
 
 @media screen and (min-width: 1700px) {
-    .section__width {
-        width: 1500px;
-    }
+  .section__width {
+    width: 1500px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .section__width {
-        width: 700px;
-    }
+  .section__width {
+    width: 700px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .section__width {
-        width: 350px;
-    }
+  .section__width {
+    width: 350px;
+  }
+
+  .transparent-button {
+    padding: 0.5rem 1.4rem;
+  }
 }
