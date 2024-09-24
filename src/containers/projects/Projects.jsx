@@ -18,14 +18,14 @@ const projectsList = {
         {
             title: "NFT DISTRO",
             backgroundImage: nftDistro,
-            description: "Full responsive website that seamlessly blends modern UI/UX design principles to showcase the transformative power of GPT-3 AI and its applications in technology.",
+            description: "An NFT distribution platform designed to simplify digital asset management, featuring a responsive, visually dynamic interface that enhances user interaction and accessibility.",
             codeIn: "React & CSS",
             link: "https://j3ssy-andu.github.io/nft-distro/"
         },
         {
             title: "GERICHT",
             backgroundImage: gerichtImage,
-            description: "Full responsive website that seamlessly blends modern UI/UX design principles to showcase the transformative power of GPT-3 AI and its applications in technology.",
+            description: "A fully responsive restaurant website with an elegant, modern design, focused on smooth navigation and visually appealing layouts to elevate the dining experience online.",
             codeIn: "React & CSS",
             link: "https://j3ssy-andu.github.io/gericht-restaurant/"
         }
