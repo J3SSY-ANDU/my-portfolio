@@ -1,190 +1,209 @@
 .portfolio__hireMe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .portfolio__hireMe-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
 }
 
 .portfolio__hireMe-container_heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
 }
 
 .portfolio__hireMe-container_heading h1 {
-    font-family: 'Yeseva One';
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 55px;
-    text-align: center;
-    color: #FFFFFF;
+  font-family: "Yeseva One";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .portfolio__hireMe-container_heading p {
-    font-family: 'Raleway';
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 23px;
-    text-align: center;
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .portfolio__hireMe-container_input {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 4rem;
 }
-.portfolio__hireMe-container_input div {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+
+.portfolio__hireMe-container_input div:not(.input-div div) {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.portfolio__hireMe-container_input .input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.5rem;
 }
 
 .portfolio__hireMe-container_input > div:first-child {
-    gap: 5rem;
+  gap: 5rem;
 }
 
 .portfolio__hireMe-container_input div > input {
-    all: unset;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 20px;
-    width: 100%;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 5px;
+  all: unset;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
 }
 
 .portfolio__hireMe-container_input input[type="textarea"] {
-    width: 100%;
+  width: 100%;
 }
 
 .portfolio__hireMe-container_input > div:last-child div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #gradient__button {
-    all: unset;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+  all: unset;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  width: 5%;
+  text-align: center;
 
-    color: #FFFFFF;
-    padding: 0.5rem 1.25rem;
-    background: radial-gradient(117.2% 787.56% at -7.6% 100%, #5EE4C6 3.5%, #77B7F7 31%, #5358D9 55.5%, #7F5DEB 83%, #C86CE2 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0.5s ease;
+  color: #ffffff;
+  padding: 0.5rem 1.25rem;
+  background: radial-gradient(
+      117.2% 787.56% at -7.6% 100%,
+      #5ee4c6 3.5%,
+      #77b7f7 31%,
+      #5358d9 55.5%,
+      #7f5deb 83%,
+      #c86ce2 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 #gradient__button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 12px #ffffff5f;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #ffffff5f;
 }
 
 @media screen and (min-width: 1700px) {
-    .portfolio__hireMe-container_heading {
-        gap: 2rem;
-    }
+  .portfolio__hireMe-container_heading {
+    gap: 2rem;
+  }
 
-    .portfolio__hireMe-container_heading p {
-        font-size: 28px;
-        line-height: 36px;
-    }
+  .portfolio__hireMe-container_heading p {
+    font-size: 28px;
+    line-height: 36px;
+  }
 
-    .portfolio__hireMe-container_input > div:first-child {
-        gap: 10rem;
-    }
+  .portfolio__hireMe-container_input > div:first-child {
+    gap: 10rem;
+  }
 
-    .portfolio__hireMe-container_input div > input {
-        font-size: 28px;
-        line-height: 36px;
-    }
+  .portfolio__hireMe-container_input div > input {
+    font-size: 28px;
+    line-height: 36px;
+  }
 
-    #gradient__button {
-        font-size: 28px;
-        line-height: 36px;
-        padding: 0.75rem 1.5rem;
-    }
+  #gradient__button {
+    font-size: 28px;
+    line-height: 36px;
+    padding: 0.75rem 1.5rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .portfolio__hireMe-container {
-        gap: 3rem;
-    }
+  .portfolio__hireMe-container {
+    gap: 3rem;
+  }
 
-    .portfolio__hireMe-container_heading h1 {
-        font-size: 40px;
-        line-height: 46px;
-    }
+  .portfolio__hireMe-container_heading h1 {
+    font-size: 40px;
+    line-height: 46px;
+  }
 
-    .portfolio__hireMe-container_heading p {
-        font-size: 18px;
-        line-height: 26px;
-    }
+  .portfolio__hireMe-container_heading p {
+    font-size: 18px;
+    line-height: 26px;
+  }
 
-    .portfolio__hireMe-container_input {
-        gap: 3rem;
-    }
-    
-    .portfolio__hireMe-container_input div > input {
-        font-size: 18px;
-        line-height: 26px;
-    }
+  .portfolio__hireMe-container_input {
+    gap: 3rem;
+  }
 
-    #gradient__button {
-        font-size: 18px;
-        line-height: 26px;
-        padding: 0.5rem 1.25rem;
-    }
+  .portfolio__hireMe-container_input div > input {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  #gradient__button {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0.5rem 1.25rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .portfolio__hireMe-container {
-        gap: 3rem;
-    }
+  .portfolio__hireMe-container {
+    gap: 3rem;
+  }
 
-    .portfolio__hireMe-container_heading h1 {
-        font-size: 32px;
-        line-height: 38px;
-    }
-    
-    .portfolio__hireMe-container_heading p {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  .portfolio__hireMe-container_heading h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
 
-    .portfolio__hireMe-container_input > div:first-child {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 3rem;
-    }
+  .portfolio__hireMe-container_heading p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 
-    .portfolio__hireMe-container_input div > input {
-        font-size: 16px;
-        width: 100%;
-    }
-    #gradient__button {
-        font-size: 16px;
-        line-height: 22px;
-        padding: 0.5rem 1rem;
-    }
+  .portfolio__hireMe-container_input > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .portfolio__hireMe-container_input div > input {
+    font-size: 16px;
+    width: 100%;
+  }
+  #gradient__button {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0.5rem 1rem;
+  }
 }
