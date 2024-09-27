@@ -9,7 +9,11 @@ import Alert from "@mui/material/Alert";
 
 function HireMe() {
   const [send, setSend] = useState(false);
-  const [showSnackbar, setShowSnackbar] = useState(false);
+  const [showSnackbar, setShowSnackbar] = useState({
+    open: false,
+    vertical: "bottom",
+    horizontal: "left",
+  });
   const [alerts, setAlerts] = useState({ name: "", email: "", message: "" });
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -19,7 +23,9 @@ function HireMe() {
   const settingAlerts = (name, email, message) => {
     const newAlerts = { ...alerts };
     const nameAlert = name ? "" : "You have to enter a name.";
-    const emailAlert = email ? "" : "You have to enter an email.";
+    const emailAlert = email
+      ? verifyEmail(email)
+      : "You have to enter an email.";
     const messageAlert = message ? "" : "You have to enter a message.";
     newAlerts.name = nameAlert;
     newAlerts.email = emailAlert;
@@ -27,10 +33,19 @@ function HireMe() {
     setAlerts(newAlerts);
   };
 
+  const verifyEmail = (email) => {
+  const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;    
+  if (re.test(email)) {
+      return "";
+    }
+    return "You have to enter a valid email.";
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
     setSend(true);
-    if (!name || !email || !message) {
+    const emailVerified = verifyEmail(email);
+    if (!name || emailVerified || !message) {
       settingAlerts(name, email, message);
       setSend(false);
       return;
@@ -45,7 +60,7 @@ function HireMe() {
           console.log(result.text);
           e.target.reset();
           setSend(false);
-          setShowSnackbar(true);
+          setShowSnackbar({ ...showSnackbar, open: true });
           setName("");
           setEmail("");
           setMessage("");
@@ -59,6 +74,8 @@ function HireMe() {
         }
       );
   };
+
+  const { vertical, horizontal, open } = showSnackbar;
 
   return (
     <div className="portfolio__hireMe section__padding" id="hire-me">
@@ -85,11 +102,13 @@ function HireMe() {
                 <input
                   type="text"
                   name="from_name"
-                  placeholder="Enter your name"
+                  placeholder="Enter your full name"
                   value={name}
                   onChange={(e) => {
                     setName(e.target.value);
-                    console.log(name);
+                    if (alerts.name) {
+                      settingAlerts(e.target.value, email, message);
+                    }
                   }}
                 />
                 {alerts.name && (
@@ -106,7 +125,12 @@ function HireMe() {
                   name="user_email"
                   placeholder="Enter your email"
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    if (alerts.email) {
+                      settingAlerts(name, e.target.value, message);
+                    }
+                  }}
                 />
                 {alerts.email && (
                   <Alert variant="outlined" severity="error">
@@ -124,7 +148,12 @@ function HireMe() {
                   name="message"
                   placeholder="Message"
                   value={message}
-                  onChange={(e) => setMessage(e.target.value)}
+                  onChange={(e) => {
+                    setMessage(e.target.value);
+                    if (alerts.message) {
+                      settingAlerts(name, email, e.target.value);
+                    }
+                  }}
                 />
                 {alerts.message && (
                   <Alert variant="outlined" severity="error">
@@ -136,23 +165,27 @@ function HireMe() {
           </div>
           <ScrollAnimation>
             {!send ? (
-              <div>
-                <input type="submit" value="Send" id="gradient__button" />
-                <Snackbar
-                  open={showSnackbar}
-                  autoHideDuration={6000}
-                  onClose={() => setShowSnackbar(false)}
-                  message="Message sent successfully!"
-                />
-              </div>
+              <input type="submit" value="Send" id="gradient__button" />
             ) : (
               <button type="submit" id="gradient__button" disabled>
-                <CircularProgress color="primary" size={20} />
+                <CircularProgress color="primary" size={20} sx={{position: "relative", bottom: "-2px"}}/>
               </button>
             )}
           </ScrollAnimation>
         </form>
       </div>
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "left" }}
+        open={open}
+        autoHideDuration={6000}
+        onClose={() => setShowSnackbar({ ...showSnackbar, open: false })}
+        message="Message sent successfully!"
+        key={vertical + horizontal}
+      >
+        <Alert severity="success" variant="outlined">
+          Message sent successfully!
+        </Alert>
+      </Snackbar>
     </div>
   );
 }

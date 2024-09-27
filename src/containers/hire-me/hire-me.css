@@ -43,13 +43,13 @@
 .portfolio__hireMe-container_input {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   gap: 4rem;
 }
 
-.portfolio__hireMe-container_input div:not(.input-div div) {
+.portfolio__hireMe-container_input > div,
+.portfolio__hireMe-container_input > div > div,
+.portfolio__hireMe-container_input > div > div > div {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -67,7 +67,7 @@
   gap: 5rem;
 }
 
-.portfolio__hireMe-container_input div > input {
+.portfolio__hireMe-container_input .input-div > input {
   all: unset;
   font-family: "Raleway";
   font-weight: 400;
@@ -77,24 +77,16 @@
   padding-bottom: 5px;
 }
 
-.portfolio__hireMe-container_input input[type="textarea"] {
-  width: 100%;
-}
-
-.portfolio__hireMe-container_input > div:last-child div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #gradient__button {
   all: unset;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
-  width: 5%;
+  width: 7cqb;
+  min-height: 24px;
   text-align: center;
+  margin: auto;
 
   color: #ffffff;
   padding: 0.5rem 1.25rem;
@@ -110,6 +102,7 @@
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.5s ease;
+  position: relative;
 }
 
 #gradient__button:hover {
@@ -123,7 +116,7 @@
   }
 
   .portfolio__hireMe-container_heading p {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 36px;
   }
 
@@ -131,14 +124,14 @@
     gap: 10rem;
   }
 
-  .portfolio__hireMe-container_input div > input {
-    font-size: 28px;
+  .portfolio__hireMe-container_input .input-div > input {
+    font-size: 24px;
     line-height: 36px;
   }
 
   #gradient__button {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 32px;
     padding: 0.75rem 1.5rem;
   }
 }
@@ -162,7 +155,7 @@
     gap: 3rem;
   }
 
-  .portfolio__hireMe-container_input div > input {
+  .portfolio__hireMe-container_input .input-div > input {
     font-size: 18px;
     line-height: 26px;
   }
@@ -171,6 +164,7 @@
     font-size: 18px;
     line-height: 26px;
     padding: 0.5rem 1.25rem;
+    width: 10%;
   }
 }
 
@@ -205,5 +199,6 @@
     font-size: 16px;
     line-height: 22px;
     padding: 0.5rem 1rem;
+    width: 15%;
   }
 }
