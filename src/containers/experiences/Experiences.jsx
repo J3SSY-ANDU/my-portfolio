@@ -6,15 +6,14 @@ import figureImage5 from '../../assets/Holographic 3D shape 11.png';
 import figureImage7 from '../../assets/Holographic 3D shape 17.png';
 import figureImage9 from '../../assets/Holographic 3D shape 49.png';
 import figureImage10 from '../../assets/Holographic 3D shape 56.png';
-import resumeFile from '../../assets/resume.pdf';
 import './experiences.css';
 import ScrollAnimation from '../../components/scroll-animation/ScrollAnimation';
 
 const info = [
     {
-        title: "Rumbus",
+        title: "RUMBus",
         text: "Collaborated on RUMBus, focusing on the development of user-friendly interfaces, including maps and notifications, to enhance the UPRM bus service app using React Native.",
-        link: `${resumeFile}`
+        link: "https://x.com/RUMBusPR"
     }, 
     {
         title: "ICPC",
