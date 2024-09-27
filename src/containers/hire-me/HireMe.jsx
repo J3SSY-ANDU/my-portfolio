@@ -6,6 +6,7 @@ import ScrollAnimation from "../../components/scroll-animation/ScrollAnimation";
 import CircularProgress from "@mui/material/CircularProgress";
 import Snackbar from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
+import { Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Button } from "@mui/material";
 
 function HireMe() {
   const [send, setSend] = useState(false);
@@ -14,7 +15,8 @@ function HireMe() {
     vertical: "bottom",
     horizontal: "left",
   });
-  const [alerts, setAlerts] = useState({ name: "", email: "", message: "" });
+  const [alerts, setAlerts] = useState({ name: "", email: "", message: ""});
+  const [error, setError] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -67,6 +69,7 @@ function HireMe() {
         },
         (error) => {
           console.log("FAILED...", error.text);
+          setError(true);
           setSend(false);
           setName("");
           setEmail("");
@@ -186,6 +189,31 @@ function HireMe() {
           Message sent successfully!
         </Alert>
       </Snackbar>
+      <Dialog
+        open={error}
+        onClose={() => setError(false)}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+        <DialogTitle id="alert-dialog-title" sx={{color: '#fff', background: '#4A4947'}}>
+          {"Message not sent."}
+        </DialogTitle>
+        <DialogContent sx={{background: "#4A4947"}}>
+          {/* write something here about writing it via email account */}
+          <DialogContentText id="alert-dialog-description" sx={{color: '#fff'}}>
+            Something went wrong with the message. Please try again or send me
+            an email pressing below.
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions sx={{background: '#4A4947'}}>
+          <Button onClick={() => setError(false)} autoFocus>
+            Close
+          </Button>
+          <Button>
+            <a href="mailto:jessy.andujar@upr.edu">Send Email</a>
+          </Button>
+        </DialogActions>
+      </Dialog>
     </div>
   );
 }
