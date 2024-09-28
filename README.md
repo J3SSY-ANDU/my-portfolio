@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# Jessy Andújar Cruz - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio! I’m **Jessy Andújar Cruz**, a third-year software engineering student at the **University of Puerto Rico, Mayagüez (UPRM)**, with a passion for creating innovative, user-friendly web applications. My portfolio showcases my journey from marketing to software engineering, featuring the projects and skills I’ve developed along the way.
 
-## Available Scripts
+## 🌐 Website
 
-In the project directory, you can run:
+Explore my portfolio here: [jessyandujarcruz.com](https://www.jessyandujarcruz.com)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 About Me
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Originally starting my academic career in marketing, I discovered my passion for problem-solving and creativity in software engineering. Now, as a software engineering student, I’m focused on front-end development while continuously exploring backend technologies, data science, and machine learning.
 
-### `npm test`
+### Education
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Bachelor's of Science in Software Engineering**, Minor in Marketing  
+  _University of Puerto Rico, Mayagüez_ (May 2026)
+  - Key Courses: Algorithm Design and Analysis, Data Structures, Advanced Programming, Fundamentals of Computing
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌟 Projects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Meet Your Finance** (Summer 2024 Internship)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Meet Your Finance is a Puerto Rican startup that provides financial education through an interactive platform. My role as a front-end developer is crucial in creating a seamless experience for high school students learning financial literacy.
 
-### `npm run eject`
+- **Technologies Used**: Next.js, React, TypeScript, Axios, react-i18next, Chart.js
+- **Responsibilities**:
+  - Develop the UI for a financial education website using **CSS** and responsive design, providing a clean and engaging interface.
+  - Implement server-side rendering and client-side routing using **Next.js** to optimize performance.
+  - Integrate API services with **Axios** to streamline data flow and enhance user experience.
+  - Enable bilingual localization with **react-i18next** for a seamless switch between Spanish and English.
+  - Visualize survey data using **Chart.js**, creating engaging doughnut and radar charts.
+  - Implement robust form validation for authentication using **React Hooks** and **TypeScript**.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **ROCS Smart Carpooling** (Ongoing Project)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ROCS (Reservation Optimized Carpooling System) is a smart carpooling mobile application developed to address traffic congestion at UPRM. The app optimizes carpool groups and rewards users with reserved parking. I work as a **front-end developer**, contributing to improving the user experience and adding new features.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Technologies Used**: React Native
+- **Responsibilities**:
+  - Set up and run the app on **React Native** to identify and fix issues using dummy data.
+  - Develop and optimize user interfaces for the mobile app, focusing on improving the user experience.
+  - Collaborate closely with the backend team to troubleshoot integration issues and ensure smooth app functionality.
+  - Work on adding new features like the friend list and block list for user interaction.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **RUMBus** (UPRM Project)
 
-## Learn More
+The RUMBus project enhances student transportation by providing real-time bus schedules and alerts at UPRM. As a front-end React Native developer, I contribute to building the app’s interface and ensuring a smooth user experience for all students.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Technologies Used**: React Native, React Navigation, iOS/Android Development
+- **Responsibilities**:
+  - Style and optimize the app for iOS and Android, ensuring consistent design across platforms.
+  - Integrate **React Navigation** for a smooth user experience, allowing users to easily access live bus locations and routes.
+  - Coordinate the release of the app on the Android App Store.
+  - Set up real-time data connections for bus schedules, improving daily transit for over 12,500 campus students.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **RegiUPR**
 
-### Code Splitting
+An ongoing project aimed at replacing UPRM’s current course registration system with a more user-friendly alternative. My role involves backend development using **Python** and **MySQL Connector** to optimize data management and improve registration efficiency.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Technologies Used**: Python, MySQL Connector, SQL
+- **Responsibilities**:
+  - Develop backend features to handle course data efficiently.
+  - Create a more intuitive registration interface for students.
 
-### Analyzing the Bundle Size
+### **Portfolio Website**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This very portfolio website is designed to showcase my projects and technical skills. Built with **React** and **CSS**, it features smooth navigation and clean visuals.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🛠 Skills
 
-### Advanced Configuration
+### Front-End
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **React.js**: Expertise in building dynamic, single-page applications with responsive UIs.
+- **Next.js**: Implemented for server-side rendering and efficient routing in web apps.
+- **JavaScript (ES6+)**: Core language for developing interactive, user-focused features.
+- **TypeScript**: Used for improving code quality, ensuring type safety, and making scalable applications.
+- **HTML5 & CSS3**: Core tools for creating structured and visually appealing web layouts.
+- **React Native**: Proficient in building cross-platform mobile applications for both iOS and Android.
+- **Material UI**: Used for creating beautiful, consistent UI components.
+- **Sass (CSS Preprocessor)**: Expertise in organizing and optimizing large CSS codebases.
 
-### Deployment
+### Back-End (Learning)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Node.js & Express**: Currently learning backend server development and API creation.
+- **MySQL & Relational Databases**: Actively learning how to manage relational databases, write efficient SQL queries, and implement data models for scalable backend systems.
+- **Python & MySQL Connector**: Implementing in ongoing projects like **RegiUPR** to handle backend data processing and management.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📫 Contact
+
+Feel free to reach out if you'd like to collaborate or have any questions:
+
+- **Email**: [jessy.andujar@upr.edu](mailto:jessy.andujar@upr.edu)
+- **LinkedIn**: [Jessy Andújar Cruz](https://linkedin.com/in/jessyandujarcruz)
+- **GitHub**: [@jessyandujar](https://github.com/jessyandujar)
+
+---
+
+## 🛠 Recommendations for Browsing My Portfolio
+
+1. **Hero Section**: Get a quick overview of who I am and what I do.
+2. **Experience**: Explore the projects and internships that have shaped my development journey.
+3. **Frontend Projects**: Dive into the various front-end development projects where I’ve applied my skills.
+4. **Hire Me Section**: Use this form to get in touch with me directly if you’re interested in collaborating.
+5. **Footer**: Access links to my GitHub, email, and resume for further information.
+
+---
+
+Thank you for visiting my portfolio!
