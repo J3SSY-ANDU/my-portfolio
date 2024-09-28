@@ -98,8 +98,8 @@ This very portfolio website is designed to showcase my projects and technical sk
 Feel free to reach out if you'd like to collaborate or have any questions:
 
 - **Email**: [jessy.andujar@upr.edu](mailto:jessy.andujar@upr.edu)
-- **LinkedIn**: [Jessy Andújar Cruz](https://linkedin.com/in/jessyandujarcruz)
-- **GitHub**: [@jessyandujar](https://github.com/jessyandujar)
+- **LinkedIn**: [Jessy Andújar Cruz](https://www.linkedin.com/in/jessy-andujar-cruz-a85039243/)
+- **GitHub**: [@jessyandujar](https://github.com/J3SSY-ANDU)
 
 ---
 
